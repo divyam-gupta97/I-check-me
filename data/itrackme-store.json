@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-05-26T18:51:54.686Z",
+  "updatedAt": "2026-05-26T18:52:21.386Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -26,6 +26,12 @@
       "name": "Python🐍",
       "color": "#98200b",
       "createdAt": "2026-05-26T18:51:54.686Z"
+    },
+    {
+      "id": "epic-aaaf6a3f-8989-4573-a15a-973e922a4dcb",
+      "name": "Volunteering🙋‍♂️",
+      "color": "#ad9ee5",
+      "createdAt": "2026-05-26T18:52:21.385Z"
     }
   ],
   "tasks": [],
