@@ -1,13 +1,13 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-05-26T18:50:50.218Z",
+  "updatedAt": "2026-05-26T18:50:53.904Z",
   "epics": [
     {
-      "id": "epic-home-base",
-      "name": "Home Base",
-      "color": "#39c58a",
-      "createdAt": "2026-05-26T00:00:00.000Z"
+      "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
+      "name": "School Works",
+      "color": "#49b6ff",
+      "createdAt": "2026-05-26T18:50:53.903Z"
     }
   ],
   "tasks": [],
