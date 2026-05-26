@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-05-26T18:51:08.352Z",
+  "updatedAt": "2026-05-26T18:51:32.489Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -14,6 +14,12 @@
       "name": "IRONMAN",
       "color": "#000000",
       "createdAt": "2026-05-26T18:51:08.352Z"
+    },
+    {
+      "id": "epic-bb785372-a444-428c-974c-244afebbffd4",
+      "name": "SAT📚",
+      "color": "#39c58a",
+      "createdAt": "2026-05-26T18:51:32.488Z"
     }
   ],
   "tasks": [],
