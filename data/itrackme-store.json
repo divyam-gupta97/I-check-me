@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-05-26T18:58:11.262Z",
+  "updatedAt": "2026-05-26T18:59:15.904Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -35,6 +35,30 @@
     }
   ],
   "tasks": [
+    {
+      "id": "task-c3f2fa3e-6992-4d7c-98a3-a8caad3dd16d",
+      "title": "English SAT",
+      "details": "English 26 May HW SAT",
+      "epicId": "epic-bb785372-a444-428c-974c-244afebbffd4",
+      "status": "Planned",
+      "plannedDate": "2026-05-27",
+      "priority": "Medium",
+      "createdAt": "2026-05-26T18:59:15.901Z",
+      "createdBy": "divyam-gupta97",
+      "updatedAt": "2026-05-26T18:59:15.901Z",
+      "updatedBy": "divyam-gupta97",
+      "achievedAt": null,
+      "reviewedAt": null,
+      "history": [
+        {
+          "at": "2026-05-26T18:59:15.901Z",
+          "user": "divyam-gupta97",
+          "action": "Created",
+          "from": null,
+          "to": "Planned"
+        }
+      ]
+    },
     {
       "id": "task-43d75c59-edb0-4974-82a3-f7f40e756b42",
       "title": "Explore Volunteering activities",
