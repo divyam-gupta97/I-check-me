@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ITrackMe Agile Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="brand-mark" aria-hidden="true">
+          <span>I</span>
+        </div>
+        <div class="brand-copy">
+          <p class="eyebrow">Divyam's Agile Dashboard</p>
+          <h1>ITrackMe</h1>
+        </div>
+        <nav class="view-tabs" aria-label="Main views">
+          <button class="view-tab active" id="boardTab" type="button" data-view-target="boardView">Board</button>
+          <button class="view-tab" id="tasksTab" type="button" data-view-target="taskDetailsView">Task Details</button>
+          <button class="view-tab" id="summariesTab" type="button" data-view-target="summariesView">Summaries</button>
+          <button class="view-tab" id="settingsTab" type="button" data-view-target="settingsView">Settings</button>
+        </nav>
+        <div class="topbar-actions">
+          <span class="sync-pill" id="syncStatus">Local demo</span>
+          <button class="button button-ghost" id="reloadButton" type="button" title="Reload data">
+            <span aria-hidden="true">R</span>
+            Reload
+          </button>
+          <button class="button button-primary" id="newTaskButton" type="button">
+            <span aria-hidden="true">+</span>
+            New task
+          </button>
+        </div>
+      </header>
+
+      <main class="app-main">
+        <section class="app-view active" id="boardView" aria-label="Board">
+          <div class="board-layout">
+            <aside class="side-panel" aria-label="Epics and pulse">
+              <section class="panel-section">
+                <div class="section-heading">
+                  <h2>Epics</h2>
+                  <span class="mini-badge" id="epicCount">0</span>
+                </div>
+                <form class="epic-form" id="epicForm">
+                  <input id="epicName" placeholder="New epic" maxlength="40" />
+                  <input id="epicColor" type="color" value="#49b6ff" title="Epic color" />
+                  <button class="icon-button" type="submit" title="Add epic" aria-label="Add epic">+</button>
+                </form>
+                <div class="epic-list" id="epicList"></div>
+              </section>
+
+              <section class="panel-section">
+                <div class="section-heading">
+                  <h2>Pulse</h2>
+                </div>
+                <div class="stat-grid" id="statsGrid"></div>
+              </section>
+            </aside>
+
+            <section class="workspace" aria-label="Task swim-lanes">
+              <div class="workspace-toolbar">
+                <div class="date-control">
+                  <label for="planDate">Plan date</label>
+                  <input id="planDate" type="date" />
+                </div>
+                <div class="search-control">
+                  <label for="taskSearch">Search</label>
+                  <input id="taskSearch" placeholder="Title or details" />
+                </div>
+                <div class="filter-control">
+                  <label for="epicFilter">Epic</label>
+                  <select id="epicFilter"></select>
+                </div>
+              </div>
+
+              <section class="planner-strip" aria-label="Daily planning">
+                <div>
+                  <p class="eyebrow">Plan</p>
+                  <h2 id="plannerTitle">Today</h2>
+                </div>
+                <div class="planner-metrics" id="plannerMetrics"></div>
+                <button class="button button-soft" id="addPlannedTaskButton" type="button">
+                  <span aria-hidden="true">+</span>
+                  Add for this date
+                </button>
+              </section>
+
+              <section class="board" id="board" aria-label="Kanban swim-lanes"></section>
+            </section>
+          </div>
+        </section>
+
+        <section class="app-view" id="taskDetailsView" aria-label="Task details">
+          <div class="details-layout">
+            <aside class="panel-section task-list-panel">
+              <div class="section-heading">
+                <h2>Tasks</h2>
+                <span class="mini-badge" id="taskListCount">0</span>
+              </div>
+              <label>
+                Find a task
+                <input id="detailSearch" placeholder="Search tasks" />
+              </label>
+              <button class="button button-primary" id="createTaskFromDetailsButton" type="button">
+                <span aria-hidden="true">+</span>
+                New task
+              </button>
+              <div class="detail-task-list" id="detailTaskList"></div>
+            </aside>
+
+            <section class="panel-section task-editor-panel">
+              <div class="section-heading">
+                <div>
+                  <p class="eyebrow" id="taskDetailsMode">Select</p>
+                  <h2 id="taskDetailsTitle">Task details</h2>
+                </div>
+                <button class="button button-soft" id="backToBoardButton" type="button">Board</button>
+              </div>
+
+              <div class="detail-empty" id="taskDetailsEmpty">
+                Select a task from the list, or create a new one.
+              </div>
+
+              <form class="task-details-form hidden" id="taskForm">
+                <input id="taskId" type="hidden" />
+                <label>
+                  Title
+                  <input id="taskTitle" required maxlength="90" />
+                </label>
+                <label>
+                  Task details
+                  <textarea id="taskDetails" rows="8" maxlength="1200"></textarea>
+                </label>
+                <div class="details-form-grid">
+                  <label>
+                    Epic
+                    <select id="taskEpic" required></select>
+                  </label>
+                  <label>
+                    State
+                    <select id="taskStatus"></select>
+                  </label>
+                  <label>
+                    Planned date
+                    <input id="taskPlannedDate" type="date" />
+                  </label>
+                  <label>
+                    Priority
+                    <select id="taskPriority">
+                      <option>Low</option>
+                      <option selected>Medium</option>
+                      <option>High</option>
+                    </select>
+                  </label>
+                </div>
+                <div class="task-meta" id="taskCreatedMeta"></div>
+                <div class="history-panel" id="taskHistory"></div>
+                <div class="dialog-actions">
+                  <button class="button button-ghost danger" id="deleteTaskButton" type="button">Delete</button>
+                  <span></span>
+                  <button class="button button-soft" type="button" id="resetTaskButton">Reset</button>
+                  <button class="button button-primary" type="submit">Save task</button>
+                </div>
+              </form>
+            </section>
+          </div>
+        </section>
+
+        <section class="app-view" id="summariesView" aria-label="Summaries">
+          <div class="summaries-layout">
+            <section class="panel-section">
+              <div class="section-heading">
+                <h2>Daily Summary</h2>
+                <span class="mini-badge" id="dailySummaryState">Live</span>
+              </div>
+              <div id="dailySummaryPreview" class="summary-preview"></div>
+              <div class="button-row">
+                <button class="button button-primary" id="saveDailySummaryButton" type="button">Save day</button>
+                <button class="button button-soft" id="exportDailyButton" type="button">Markdown</button>
+                <button class="button button-ghost" id="printDailyButton" type="button">PDF</button>
+              </div>
+            </section>
+
+            <section class="panel-section">
+              <div class="section-heading">
+                <h2>Weekly Summary</h2>
+                <span class="mini-badge" id="weeklySummaryState">Live</span>
+              </div>
+              <div id="weeklySummaryPreview" class="summary-preview"></div>
+              <div class="button-row">
+                <button class="button button-primary" id="saveWeeklySummaryButton" type="button">Save week</button>
+                <button class="button button-soft" id="exportWeeklyButton" type="button">Markdown</button>
+                <button class="button button-ghost" id="printWeeklyButton" type="button">PDF</button>
+              </div>
+            </section>
+
+            <section class="panel-section summary-archive-panel">
+              <div class="section-heading">
+                <h2>Archive</h2>
+                <span class="mini-badge" id="summaryCount">0</span>
+              </div>
+              <div class="summary-list" id="summaryList"></div>
+            </section>
+          </div>
+        </section>
+
+        <section class="app-view" id="settingsView" aria-label="Settings">
+          <div class="settings-layout">
+            <section class="panel-section settings-card">
+              <div class="section-heading">
+                <div>
+                  <p class="eyebrow">Settings</p>
+                  <h2>GitHub Sync</h2>
+                </div>
+                <span class="mini-badge" id="saveState">Ready</span>
+              </div>
+              <div class="field-grid">
+                <label>
+                  Owner
+                  <input id="repoOwner" autocomplete="off" />
+                </label>
+                <label>
+                  Repo
+                  <input id="repoName" autocomplete="off" />
+                </label>
+                <label>
+                  Branch
+                  <input id="repoBranch" autocomplete="off" />
+                </label>
+                <label>
+                  Data path
+                  <input id="repoPath" autocomplete="off" />
+                </label>
+                <label class="wide-field">
+                  GitHub token
+                  <input id="githubToken" type="password" autocomplete="off" placeholder="Fine-grained token" />
+                </label>
+              </div>
+              <div class="button-row">
+                <button class="button button-primary" id="connectButton" type="button">Connect</button>
+                <button class="button button-soft" id="saveNowButton" type="button">Save now</button>
+                <button class="button button-ghost" id="clearTokenButton" type="button">Clear</button>
+              </div>
+            </section>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <dialog id="summaryDialog" class="dialog">
+      <div class="dialog-card">
+        <div class="dialog-header">
+          <div>
+            <p class="eyebrow">Archive</p>
+            <h2 id="summaryDialogTitle">Summary</h2>
+          </div>
+          <button class="icon-button" type="button" id="closeSummaryDialog" aria-label="Close">x</button>
+        </div>
+        <div id="summaryDialogBody" class="summary-detail"></div>
+        <div class="dialog-actions">
+          <span></span>
+          <button class="button button-soft" id="summaryMarkdownButton" type="button">Markdown</button>
+          <button class="button button-primary" id="summaryPrintButton" type="button">PDF</button>
+        </div>
+      </div>
+    </dialog>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <div id="printArea" class="print-area" aria-hidden="true"></div>
+
+    <script src="app.js?v=shared-data-20260526"></script>
+  </body>
+</html>
