@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-05-26T18:51:32.489Z",
+  "updatedAt": "2026-05-26T18:51:54.686Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -20,6 +20,12 @@
       "name": "SAT📚",
       "color": "#39c58a",
       "createdAt": "2026-05-26T18:51:32.488Z"
+    },
+    {
+      "id": "epic-ee5be20e-9335-4bc5-ab34-cf4185307cb8",
+      "name": "Python🐍",
+      "color": "#98200b",
+      "createdAt": "2026-05-26T18:51:54.686Z"
     }
   ],
   "tasks": [],
