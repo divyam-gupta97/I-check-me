@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-05-26T18:54:55.062Z",
+  "updatedAt": "2026-05-26T18:58:11.262Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -35,6 +35,30 @@
     }
   ],
   "tasks": [
+    {
+      "id": "task-43d75c59-edb0-4974-82a3-f7f40e756b42",
+      "title": "Explore Volunteering activities",
+      "details": "\"Youth for Sewa\" \n\nPapa sent volunteering doc. Go through.",
+      "epicId": "epic-aaaf6a3f-8989-4573-a15a-973e922a4dcb",
+      "status": "Planned",
+      "plannedDate": "2026-05-27",
+      "priority": "Medium",
+      "createdAt": "2026-05-26T18:58:11.255Z",
+      "createdBy": "divyam-gupta97",
+      "updatedAt": "2026-05-26T18:58:11.255Z",
+      "updatedBy": "divyam-gupta97",
+      "achievedAt": null,
+      "reviewedAt": null,
+      "history": [
+        {
+          "at": "2026-05-26T18:58:11.255Z",
+          "user": "divyam-gupta97",
+          "action": "Created",
+          "from": null,
+          "to": "Planned"
+        }
+      ]
+    },
     {
       "id": "task-9723c59b-a9aa-44ed-bf22-6589fb803ab1",
       "title": "Run 🏃‍♂️",
