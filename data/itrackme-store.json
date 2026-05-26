@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-05-26T18:53:44.973Z",
+  "updatedAt": "2026-05-26T18:54:17.287Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -35,6 +35,30 @@
     }
   ],
   "tasks": [
+    {
+      "id": "task-9a667ca5-fb27-4263-9e48-ce36ec9ed778",
+      "title": "Physics IB📖",
+      "details": "Complete NLM - Circular Motion till Pg 53 end.",
+      "epicId": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
+      "status": "Planned",
+      "plannedDate": "2026-05-27",
+      "priority": "High",
+      "createdAt": "2026-05-26T18:54:17.285Z",
+      "createdBy": "divyam-gupta97",
+      "updatedAt": "2026-05-26T18:54:17.285Z",
+      "updatedBy": "divyam-gupta97",
+      "achievedAt": null,
+      "reviewedAt": null,
+      "history": [
+        {
+          "at": "2026-05-26T18:54:17.285Z",
+          "user": "divyam-gupta97",
+          "action": "Created",
+          "from": null,
+          "to": "Planned"
+        }
+      ]
+    },
     {
       "id": "task-6599c201-6145-4b9a-bb2a-5d48835e1718",
       "title": "Math IB📖",
