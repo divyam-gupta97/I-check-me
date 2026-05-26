@@ -1,14 +1,8 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-05-26T18:49:51.676Z",
+  "updatedAt": "2026-05-26T18:50:50.218Z",
   "epics": [
-    {
-      "id": "epic-coding-quest",
-      "name": "Coding Quest",
-      "color": "#7c5cff",
-      "createdAt": "2026-05-26T00:00:00.000Z"
-    },
     {
       "id": "epic-home-base",
       "name": "Home Base",
