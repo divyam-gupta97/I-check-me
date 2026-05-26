@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-05-26T18:54:17.287Z",
+  "updatedAt": "2026-05-26T18:54:55.062Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -35,6 +35,30 @@
     }
   ],
   "tasks": [
+    {
+      "id": "task-9723c59b-a9aa-44ed-bf22-6589fb803ab1",
+      "title": "Run 🏃‍♂️",
+      "details": "Quick *Pace focussed* 7k.\n\nAim - 4/km",
+      "epicId": "epic-4dc39b1c-7949-43a2-8c3b-1ee071f63749",
+      "status": "Planned",
+      "plannedDate": "2026-05-27",
+      "priority": "High",
+      "createdAt": "2026-05-26T18:54:55.059Z",
+      "createdBy": "divyam-gupta97",
+      "updatedAt": "2026-05-26T18:54:55.059Z",
+      "updatedBy": "divyam-gupta97",
+      "achievedAt": null,
+      "reviewedAt": null,
+      "history": [
+        {
+          "at": "2026-05-26T18:54:55.060Z",
+          "user": "divyam-gupta97",
+          "action": "Created",
+          "from": null,
+          "to": "Planned"
+        }
+      ]
+    },
     {
       "id": "task-9a667ca5-fb27-4263-9e48-ce36ec9ed778",
       "title": "Physics IB📖",
