@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-05-27T13:29:16.157Z",
+  "updatedAt": "2026-05-27T15:15:37.047Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -93,16 +93,16 @@
     {
       "id": "task-9723c59b-a9aa-44ed-bf22-6589fb803ab1",
       "title": "Run 🏃‍♂️",
-      "details": "Quick *Pace focussed* 7k.\n\nAim - 4/km",
+      "details": "Quick *Pace focussed* 7k.\n\nAim - 4/km\n\nDONE - 3.5k lake - 5.2/km - 18.5min\n                3.5k indoor - 5.2/km - 18.5min",
       "epicId": "epic-4dc39b1c-7949-43a2-8c3b-1ee071f63749",
-      "status": "In Progress",
+      "status": "Done",
       "plannedDate": "2026-05-27",
       "priority": "High",
       "createdAt": "2026-05-26T18:54:55.059Z",
       "createdBy": "divyam-gupta97",
-      "updatedAt": "2026-05-27T13:02:41.887Z",
+      "updatedAt": "2026-05-27T15:15:37.045Z",
       "updatedBy": "divyam-gupta97",
-      "achievedAt": null,
+      "achievedAt": "2026-05-27T15:15:37.045Z",
       "reviewedAt": null,
       "history": [
         {
@@ -118,6 +118,13 @@
           "action": "State changed",
           "from": "Planned",
           "to": "In Progress"
+        },
+        {
+          "at": "2026-05-27T15:15:37.045Z",
+          "user": "divyam-gupta97",
+          "action": "Edited",
+          "from": "In Progress",
+          "to": "Done"
         }
       ]
     },
