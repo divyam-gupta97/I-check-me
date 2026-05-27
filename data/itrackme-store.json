@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-05-27T18:47:56.686Z",
+  "updatedAt": "2026-05-27T18:53:19.404Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -35,6 +35,30 @@
     }
   ],
   "tasks": [
+    {
+      "id": "task-4cfe0a87-fdae-42f9-90a8-fc3b5bb23fe8",
+      "title": "3.5k indoor run",
+      "details": "Goal - Avg 13kph - 3.5k",
+      "epicId": "epic-4dc39b1c-7949-43a2-8c3b-1ee071f63749",
+      "status": "Planned",
+      "plannedDate": "2026-05-28",
+      "priority": "High",
+      "createdAt": "2026-05-27T18:53:19.401Z",
+      "createdBy": "divyam-gupta97",
+      "updatedAt": "2026-05-27T18:53:19.401Z",
+      "updatedBy": "divyam-gupta97",
+      "achievedAt": null,
+      "reviewedAt": null,
+      "history": [
+        {
+          "at": "2026-05-27T18:53:19.401Z",
+          "user": "divyam-gupta97",
+          "action": "Created",
+          "from": null,
+          "to": "Planned"
+        }
+      ]
+    },
     {
       "id": "task-59bde821-576b-4ad5-bbe2-900f04b6df3f",
       "title": "Register ASAP for Wipro HM - July/September",
