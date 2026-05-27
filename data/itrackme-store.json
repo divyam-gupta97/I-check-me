@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-05-27T18:22:11.778Z",
+  "updatedAt": "2026-05-27T18:23:56.338Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -35,6 +35,30 @@
     }
   ],
   "tasks": [
+    {
+      "id": "task-41151fc6-aa05-4294-ac2d-8835287feb9b",
+      "title": "Fix cycle handlebar",
+      "details": "",
+      "epicId": "epic-4dc39b1c-7949-43a2-8c3b-1ee071f63749",
+      "status": "Backlog",
+      "plannedDate": "",
+      "priority": "High",
+      "createdAt": "2026-05-27T18:23:56.336Z",
+      "createdBy": "divyam-gupta97",
+      "updatedAt": "2026-05-27T18:23:56.336Z",
+      "updatedBy": "divyam-gupta97",
+      "achievedAt": null,
+      "reviewedAt": null,
+      "history": [
+        {
+          "at": "2026-05-27T18:23:56.336Z",
+          "user": "divyam-gupta97",
+          "action": "Created",
+          "from": null,
+          "to": "Backlog"
+        }
+      ]
+    },
     {
       "id": "task-c3f2fa3e-6992-4d7c-98a3-a8caad3dd16d",
       "title": "English SAT",
