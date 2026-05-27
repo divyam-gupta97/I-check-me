@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-05-27T13:02:08.909Z",
+  "updatedAt": "2026-05-27T13:02:41.887Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -88,12 +88,12 @@
       "title": "Run 🏃‍♂️",
       "details": "Quick *Pace focussed* 7k.\n\nAim - 4/km",
       "epicId": "epic-4dc39b1c-7949-43a2-8c3b-1ee071f63749",
-      "status": "Planned",
+      "status": "In Progress",
       "plannedDate": "2026-05-27",
       "priority": "High",
       "createdAt": "2026-05-26T18:54:55.059Z",
       "createdBy": "divyam-gupta97",
-      "updatedAt": "2026-05-26T18:54:55.059Z",
+      "updatedAt": "2026-05-27T13:02:41.887Z",
       "updatedBy": "divyam-gupta97",
       "achievedAt": null,
       "reviewedAt": null,
@@ -104,6 +104,13 @@
           "action": "Created",
           "from": null,
           "to": "Planned"
+        },
+        {
+          "at": "2026-05-27T13:02:41.887Z",
+          "user": "divyam-gupta97",
+          "action": "State changed",
+          "from": "Planned",
+          "to": "In Progress"
         }
       ]
     },
