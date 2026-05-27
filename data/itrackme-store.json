@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-05-27T18:24:41.004Z",
+  "updatedAt": "2026-05-27T18:47:56.686Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -35,6 +35,30 @@
     }
   ],
   "tasks": [
+    {
+      "id": "task-59bde821-576b-4ad5-bbe2-900f04b6df3f",
+      "title": "Register ASAP for Wipro HM - July/September",
+      "details": "https://mysamay.in/events/v2",
+      "epicId": "epic-4dc39b1c-7949-43a2-8c3b-1ee071f63749",
+      "status": "Planned",
+      "plannedDate": "2026-05-28",
+      "priority": "High",
+      "createdAt": "2026-05-27T18:47:56.683Z",
+      "createdBy": "divyam-gupta97",
+      "updatedAt": "2026-05-27T18:47:56.683Z",
+      "updatedBy": "divyam-gupta97",
+      "achievedAt": null,
+      "reviewedAt": null,
+      "history": [
+        {
+          "at": "2026-05-27T18:47:56.683Z",
+          "user": "divyam-gupta97",
+          "action": "Created",
+          "from": null,
+          "to": "Planned"
+        }
+      ]
+    },
     {
       "id": "task-27532d6f-46ed-4cd0-baaa-7ef19c31783e",
       "title": "Buy running shoes",
@@ -261,11 +285,43 @@
     }
   ],
   "summaries": {
-    "daily": {},
+    "daily": {
+      "2026-05-27": {
+        "id": "2026-05-27",
+        "type": "daily",
+        "title": "Daily summary: Wed, 27 May 2026",
+        "date": "2026-05-27",
+        "source": "auto",
+        "saved": true,
+        "createdAt": "2026-05-27T18:47:56.687Z",
+        "plannedCount": 5,
+        "achievedCount": 4,
+        "reviewedCount": 0,
+        "openCount": 1,
+        "plannedTaskIds": [
+          "task-c3f2fa3e-6992-4d7c-98a3-a8caad3dd16d",
+          "task-43d75c59-edb0-4974-82a3-f7f40e756b42",
+          "task-9723c59b-a9aa-44ed-bf22-6589fb803ab1",
+          "task-9a667ca5-fb27-4263-9e48-ce36ec9ed778",
+          "task-6599c201-6145-4b9a-bb2a-5d48835e1718"
+        ],
+        "achievedTaskIds": [
+          "task-c3f2fa3e-6992-4d7c-98a3-a8caad3dd16d",
+          "task-9723c59b-a9aa-44ed-bf22-6589fb803ab1",
+          "task-9a667ca5-fb27-4263-9e48-ce36ec9ed778",
+          "task-6599c201-6145-4b9a-bb2a-5d48835e1718"
+        ],
+        "reviewedTaskIds": [],
+        "openTaskIds": [
+          "task-43d75c59-edb0-4974-82a3-f7f40e756b42"
+        ],
+        "note": "4 achievement markers landed, with 1 planned task still open."
+      }
+    },
     "weekly": {}
   },
   "meta": {
     "createdAt": "2026-05-26T00:00:00.000Z",
-    "lastSummaryRunAt": "2026-05-26T00:00:00.000Z"
+    "lastSummaryRunAt": "2026-05-27T18:47:56.687Z"
   }
 }
