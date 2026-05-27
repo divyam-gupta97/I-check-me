@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-05-27T13:01:41.195Z",
+  "updatedAt": "2026-05-27T13:02:08.909Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -110,14 +110,14 @@
     {
       "id": "task-9a667ca5-fb27-4263-9e48-ce36ec9ed778",
       "title": "Physics IB📖",
-      "details": "Complete NLM - Circular Motion till Pg 53 end.",
+      "details": "Complete NLM - Circular Motion till Pg 53 end.\n\nDONE - 54 half.",
       "epicId": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
       "status": "Done",
       "plannedDate": "2026-05-27",
       "priority": "High",
       "createdAt": "2026-05-26T18:54:17.285Z",
       "createdBy": "divyam-gupta97",
-      "updatedAt": "2026-05-27T13:01:41.194Z",
+      "updatedAt": "2026-05-27T13:02:08.907Z",
       "updatedBy": "divyam-gupta97",
       "achievedAt": "2026-05-27T13:01:41.194Z",
       "reviewedAt": null,
@@ -141,6 +141,13 @@
           "user": "divyam-gupta97",
           "action": "State changed",
           "from": "In Progress",
+          "to": "Done"
+        },
+        {
+          "at": "2026-05-27T13:02:08.907Z",
+          "user": "divyam-gupta97",
+          "action": "Edited",
+          "from": "Done",
           "to": "Done"
         }
       ]
