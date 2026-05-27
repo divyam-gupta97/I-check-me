@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-05-27T15:15:37.047Z",
+  "updatedAt": "2026-05-27T18:22:11.778Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -178,14 +178,14 @@
       "title": "Math IB📖",
       "details": "Complete Limits and Derivatives - Limits of Rational Functions.",
       "epicId": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
-      "status": "In Progress",
+      "status": "Done",
       "plannedDate": "2026-05-27",
       "priority": "High",
       "createdAt": "2026-05-26T18:53:44.971Z",
       "createdBy": "divyam-gupta97",
-      "updatedAt": "2026-05-27T10:13:48.266Z",
+      "updatedAt": "2026-05-27T18:22:11.778Z",
       "updatedBy": "divyam-gupta97",
-      "achievedAt": null,
+      "achievedAt": "2026-05-27T18:22:11.778Z",
       "reviewedAt": null,
       "history": [
         {
@@ -201,6 +201,13 @@
           "action": "State changed",
           "from": "Planned",
           "to": "In Progress"
+        },
+        {
+          "at": "2026-05-27T18:22:11.778Z",
+          "user": "divyam-gupta97",
+          "action": "State changed",
+          "from": "In Progress",
+          "to": "Done"
         }
       ]
     }
