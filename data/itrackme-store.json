@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-05-28T10:45:31.506Z",
+  "updatedAt": "2026-05-28T16:54:02.597Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -137,16 +137,16 @@
     {
       "id": "task-4cfe0a87-fdae-42f9-90a8-fc3b5bb23fe8",
       "title": "3.5k indoor run",
-      "details": "Goal - Avg 13kph - 3.5k",
+      "details": "Goal - Avg 13kph - 3.5k\n\nDONE - 3.5k - 17min - 4:50/km - 12.5kph",
       "epicId": "epic-4dc39b1c-7949-43a2-8c3b-1ee071f63749",
-      "status": "Planned",
+      "status": "Done",
       "plannedDate": "2026-05-28",
       "priority": "High",
       "createdAt": "2026-05-27T18:53:19.401Z",
       "createdBy": "divyam-gupta97",
-      "updatedAt": "2026-05-27T18:53:19.401Z",
+      "updatedAt": "2026-05-28T16:54:02.583Z",
       "updatedBy": "divyam-gupta97",
-      "achievedAt": null,
+      "achievedAt": "2026-05-28T16:54:02.585Z",
       "reviewedAt": null,
       "history": [
         {
@@ -155,6 +155,13 @@
           "action": "Created",
           "from": null,
           "to": "Planned"
+        },
+        {
+          "at": "2026-05-28T16:54:02.585Z",
+          "user": "divyam-gupta97",
+          "action": "Edited",
+          "from": "Planned",
+          "to": "Done"
         }
       ]
     },
