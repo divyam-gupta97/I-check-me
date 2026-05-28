@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-05-28T10:43:06.277Z",
+  "updatedAt": "2026-05-28T10:43:53.567Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -32,6 +32,12 @@
       "name": "Volunteering🙋‍♂️",
       "color": "#ad9ee5",
       "createdAt": "2026-05-26T18:52:21.385Z"
+    },
+    {
+      "id": "epic-ed587859-addc-42de-a49b-2ba251092423",
+      "name": "OB⛰️",
+      "color": "#f5f5f5",
+      "createdAt": "2026-05-28T10:43:53.566Z"
     }
   ],
   "tasks": [
