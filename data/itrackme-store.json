@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-05-28T10:45:05.422Z",
+  "updatedAt": "2026-05-28T10:45:31.506Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -108,12 +108,12 @@
       "title": "Math IB📖",
       "details": "Solve Limits and Derivatives part 2 QnA",
       "epicId": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
-      "status": "Planned",
+      "status": "In Progress",
       "plannedDate": "2026-05-28",
       "priority": "High",
       "createdAt": "2026-05-27T18:55:29.601Z",
       "createdBy": "divyam-gupta97",
-      "updatedAt": "2026-05-27T18:55:29.601Z",
+      "updatedAt": "2026-05-28T10:45:31.506Z",
       "updatedBy": "divyam-gupta97",
       "achievedAt": null,
       "reviewedAt": null,
@@ -124,6 +124,13 @@
           "action": "Created",
           "from": null,
           "to": "Planned"
+        },
+        {
+          "at": "2026-05-28T10:45:31.506Z",
+          "user": "divyam-gupta97",
+          "action": "State changed",
+          "from": "Planned",
+          "to": "In Progress"
         }
       ]
     },
