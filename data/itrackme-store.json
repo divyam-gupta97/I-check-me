@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-01T06:21:29.333Z",
+  "updatedAt": "2026-06-01T06:21:38.313Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -46,12 +46,12 @@
       "title": "Outdoors Beckon ABC brochure",
       "details": "Design a brochure for Annapurna Base Camp\n\n*100% Effort. *",
       "epicId": "epic-ed587859-addc-42de-a49b-2ba251092423",
-      "status": "Planned",
+      "status": "In Progress",
       "plannedDate": "2026-05-28",
       "priority": "High",
       "createdAt": "2026-05-28T10:43:06.271Z",
       "createdBy": "divyam-gupta97",
-      "updatedAt": "2026-06-01T06:21:29.333Z",
+      "updatedAt": "2026-06-01T06:21:38.313Z",
       "updatedBy": "divyam-gupta97",
       "achievedAt": null,
       "reviewedAt": null,
@@ -83,6 +83,13 @@
           "action": "State changed",
           "from": "Blocked",
           "to": "Planned"
+        },
+        {
+          "at": "2026-06-01T06:21:38.313Z",
+          "user": "divyam-gupta97",
+          "action": "State changed",
+          "from": "Planned",
+          "to": "In Progress"
         }
       ]
     },
