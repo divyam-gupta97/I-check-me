@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-05-28T16:54:02.597Z",
+  "updatedAt": "2026-06-01T06:21:17.906Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -170,14 +170,14 @@
       "title": "Register ASAP for Wipro HM - July/September",
       "details": "https://mysamay.in/events/v2",
       "epicId": "epic-4dc39b1c-7949-43a2-8c3b-1ee071f63749",
-      "status": "Planned",
+      "status": "Done",
       "plannedDate": "2026-05-28",
       "priority": "High",
       "createdAt": "2026-05-27T18:47:56.683Z",
       "createdBy": "divyam-gupta97",
-      "updatedAt": "2026-05-27T18:47:56.683Z",
+      "updatedAt": "2026-06-01T06:21:17.904Z",
       "updatedBy": "divyam-gupta97",
-      "achievedAt": null,
+      "achievedAt": "2026-06-01T06:21:17.905Z",
       "reviewedAt": null,
       "history": [
         {
@@ -186,6 +186,13 @@
           "action": "Created",
           "from": null,
           "to": "Planned"
+        },
+        {
+          "at": "2026-06-01T06:21:17.906Z",
+          "user": "divyam-gupta97",
+          "action": "State changed",
+          "from": "Planned",
+          "to": "Done"
         }
       ]
     },
@@ -446,12 +453,84 @@
           "task-43d75c59-edb0-4974-82a3-f7f40e756b42"
         ],
         "note": "4 achievement markers landed, with 1 planned task still open."
+      },
+      "2026-05-28": {
+        "id": "2026-05-28",
+        "type": "daily",
+        "title": "Daily summary: Thu, 28 May 2026",
+        "date": "2026-05-28",
+        "source": "auto",
+        "saved": true,
+        "createdAt": "2026-06-01T06:21:17.911Z",
+        "plannedCount": 5,
+        "achievedCount": 1,
+        "reviewedCount": 0,
+        "openCount": 3,
+        "plannedTaskIds": [
+          "task-a0c02e26-8546-43d5-a72e-b1cd8bdaad9e",
+          "task-8336d7d1-5686-49a4-a77a-0ce083b949a3",
+          "task-6d99b67f-efd0-4ce3-b955-ec635aa7fbfb",
+          "task-4cfe0a87-fdae-42f9-90a8-fc3b5bb23fe8",
+          "task-59bde821-576b-4ad5-bbe2-900f04b6df3f"
+        ],
+        "achievedTaskIds": [
+          "task-4cfe0a87-fdae-42f9-90a8-fc3b5bb23fe8"
+        ],
+        "reviewedTaskIds": [],
+        "openTaskIds": [
+          "task-a0c02e26-8546-43d5-a72e-b1cd8bdaad9e",
+          "task-8336d7d1-5686-49a4-a77a-0ce083b949a3",
+          "task-6d99b67f-efd0-4ce3-b955-ec635aa7fbfb"
+        ],
+        "note": "1 achievement marker landed, with 3 planned tasks still open."
       }
     },
-    "weekly": {}
+    "weekly": {
+      "2026-05-25_to_2026-05-31": {
+        "id": "2026-05-25_to_2026-05-31",
+        "type": "weekly",
+        "title": "Weekly summary: 25 May to 31 May",
+        "start": "2026-05-25",
+        "end": "2026-05-31",
+        "source": "auto",
+        "saved": true,
+        "createdAt": "2026-06-01T06:21:17.911Z",
+        "plannedCount": 10,
+        "achievedCount": 5,
+        "reviewedCount": 0,
+        "openCount": 4,
+        "plannedTaskIds": [
+          "task-a0c02e26-8546-43d5-a72e-b1cd8bdaad9e",
+          "task-8336d7d1-5686-49a4-a77a-0ce083b949a3",
+          "task-6d99b67f-efd0-4ce3-b955-ec635aa7fbfb",
+          "task-4cfe0a87-fdae-42f9-90a8-fc3b5bb23fe8",
+          "task-59bde821-576b-4ad5-bbe2-900f04b6df3f",
+          "task-c3f2fa3e-6992-4d7c-98a3-a8caad3dd16d",
+          "task-43d75c59-edb0-4974-82a3-f7f40e756b42",
+          "task-9723c59b-a9aa-44ed-bf22-6589fb803ab1",
+          "task-9a667ca5-fb27-4263-9e48-ce36ec9ed778",
+          "task-6599c201-6145-4b9a-bb2a-5d48835e1718"
+        ],
+        "achievedTaskIds": [
+          "task-4cfe0a87-fdae-42f9-90a8-fc3b5bb23fe8",
+          "task-c3f2fa3e-6992-4d7c-98a3-a8caad3dd16d",
+          "task-9723c59b-a9aa-44ed-bf22-6589fb803ab1",
+          "task-9a667ca5-fb27-4263-9e48-ce36ec9ed778",
+          "task-6599c201-6145-4b9a-bb2a-5d48835e1718"
+        ],
+        "reviewedTaskIds": [],
+        "openTaskIds": [
+          "task-a0c02e26-8546-43d5-a72e-b1cd8bdaad9e",
+          "task-8336d7d1-5686-49a4-a77a-0ce083b949a3",
+          "task-6d99b67f-efd0-4ce3-b955-ec635aa7fbfb",
+          "task-43d75c59-edb0-4974-82a3-f7f40e756b42"
+        ],
+        "note": "5 achievement markers landed, with 4 planned tasks still open."
+      }
+    }
   },
   "meta": {
     "createdAt": "2026-05-26T00:00:00.000Z",
-    "lastSummaryRunAt": "2026-05-27T18:47:56.687Z"
+    "lastSummaryRunAt": "2026-06-01T06:21:17.911Z"
   }
 }
