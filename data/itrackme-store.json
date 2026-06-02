@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-02T16:00:01.652Z",
+  "updatedAt": "2026-06-02T16:00:07.227Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -222,14 +222,14 @@
       "title": "Buy running shoes",
       "details": "Research on the best features",
       "epicId": "epic-4dc39b1c-7949-43a2-8c3b-1ee071f63749",
-      "status": "Backlog",
+      "status": "Done",
       "plannedDate": "",
       "priority": "High",
       "createdAt": "2026-05-27T18:24:41.001Z",
       "createdBy": "divyam-gupta97",
-      "updatedAt": "2026-05-27T18:24:41.001Z",
+      "updatedAt": "2026-06-02T16:00:07.227Z",
       "updatedBy": "divyam-gupta97",
-      "achievedAt": null,
+      "achievedAt": "2026-06-02T16:00:07.227Z",
       "reviewedAt": null,
       "history": [
         {
@@ -238,6 +238,13 @@
           "action": "Created",
           "from": null,
           "to": "Backlog"
+        },
+        {
+          "at": "2026-06-02T16:00:07.227Z",
+          "user": "divyam-gupta97",
+          "action": "State changed",
+          "from": "Backlog",
+          "to": "Done"
         }
       ]
     },
