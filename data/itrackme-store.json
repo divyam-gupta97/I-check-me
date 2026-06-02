@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-01T06:21:38.313Z",
+  "updatedAt": "2026-06-02T16:00:01.652Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -46,14 +46,14 @@
       "title": "Outdoors Beckon ABC brochure",
       "details": "Design a brochure for Annapurna Base Camp\n\n*100% Effort. *",
       "epicId": "epic-ed587859-addc-42de-a49b-2ba251092423",
-      "status": "In Progress",
+      "status": "Done",
       "plannedDate": "2026-05-28",
       "priority": "High",
       "createdAt": "2026-05-28T10:43:06.271Z",
       "createdBy": "divyam-gupta97",
-      "updatedAt": "2026-06-01T06:21:38.313Z",
+      "updatedAt": "2026-06-02T16:00:01.651Z",
       "updatedBy": "divyam-gupta97",
-      "achievedAt": null,
+      "achievedAt": "2026-06-02T16:00:01.652Z",
       "reviewedAt": null,
       "history": [
         {
@@ -90,6 +90,13 @@
           "action": "State changed",
           "from": "Planned",
           "to": "In Progress"
+        },
+        {
+          "at": "2026-06-02T16:00:01.652Z",
+          "user": "divyam-gupta97",
+          "action": "State changed",
+          "from": "In Progress",
+          "to": "Done"
         }
       ]
     },
@@ -497,6 +504,26 @@
           "task-6d99b67f-efd0-4ce3-b955-ec635aa7fbfb"
         ],
         "note": "1 achievement marker landed, with 3 planned tasks still open."
+      },
+      "2026-06-01": {
+        "id": "2026-06-01",
+        "type": "daily",
+        "title": "Daily summary: Mon, 1 Jun 2026",
+        "date": "2026-06-01",
+        "source": "auto",
+        "saved": true,
+        "createdAt": "2026-06-02T16:00:01.657Z",
+        "plannedCount": 0,
+        "achievedCount": 1,
+        "reviewedCount": 0,
+        "openCount": 0,
+        "plannedTaskIds": [],
+        "achievedTaskIds": [
+          "task-59bde821-576b-4ad5-bbe2-900f04b6df3f"
+        ],
+        "reviewedTaskIds": [],
+        "openTaskIds": [],
+        "note": "1 achievement marker landed, with 0 planned tasks still open."
       }
     },
     "weekly": {
@@ -545,6 +572,6 @@
   },
   "meta": {
     "createdAt": "2026-05-26T00:00:00.000Z",
-    "lastSummaryRunAt": "2026-06-01T06:21:17.911Z"
+    "lastSummaryRunAt": "2026-06-02T16:00:01.657Z"
   }
 }
