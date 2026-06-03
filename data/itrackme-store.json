@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-02T16:00:10.128Z",
+  "updatedAt": "2026-06-03T03:49:44.673Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -41,6 +41,30 @@
     }
   ],
   "tasks": [
+    {
+      "id": "task-47f77f5a-c503-4b6d-a4e0-5ddbf806fa8b",
+      "title": "English SAT",
+      "details": "Complete all remaining Digital SAT 7 qtns",
+      "epicId": "epic-bb785372-a444-428c-974c-244afebbffd4",
+      "status": "Planned",
+      "plannedDate": "2026-06-03",
+      "priority": "High",
+      "createdAt": "2026-06-03T03:49:44.671Z",
+      "createdBy": "divyam-gupta97",
+      "updatedAt": "2026-06-03T03:49:44.671Z",
+      "updatedBy": "divyam-gupta97",
+      "achievedAt": null,
+      "reviewedAt": null,
+      "history": [
+        {
+          "at": "2026-06-03T03:49:44.672Z",
+          "user": "divyam-gupta97",
+          "action": "Created",
+          "from": null,
+          "to": "Planned"
+        }
+      ]
+    },
     {
       "id": "task-a0c02e26-8546-43d5-a72e-b1cd8bdaad9e",
       "title": "Outdoors Beckon ABC brochure",
@@ -538,6 +562,28 @@
         "reviewedTaskIds": [],
         "openTaskIds": [],
         "note": "1 achievement marker landed, with 0 planned tasks still open."
+      },
+      "2026-06-02": {
+        "id": "2026-06-02",
+        "type": "daily",
+        "title": "Daily summary: Tue, 2 Jun 2026",
+        "date": "2026-06-02",
+        "source": "auto",
+        "saved": true,
+        "createdAt": "2026-06-03T03:49:44.673Z",
+        "plannedCount": 0,
+        "achievedCount": 3,
+        "reviewedCount": 0,
+        "openCount": 0,
+        "plannedTaskIds": [],
+        "achievedTaskIds": [
+          "task-a0c02e26-8546-43d5-a72e-b1cd8bdaad9e",
+          "task-27532d6f-46ed-4cd0-baaa-7ef19c31783e",
+          "task-41151fc6-aa05-4294-ac2d-8835287feb9b"
+        ],
+        "reviewedTaskIds": [],
+        "openTaskIds": [],
+        "note": "3 achievement markers landed, with 0 planned tasks still open."
       }
     },
     "weekly": {
@@ -586,6 +632,6 @@
   },
   "meta": {
     "createdAt": "2026-05-26T00:00:00.000Z",
-    "lastSummaryRunAt": "2026-06-02T16:00:01.657Z"
+    "lastSummaryRunAt": "2026-06-03T03:49:44.674Z"
   }
 }
