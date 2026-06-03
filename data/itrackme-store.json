@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-03T03:49:44.673Z",
+  "updatedAt": "2026-06-03T03:50:45.239Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -41,6 +41,30 @@
     }
   ],
   "tasks": [
+    {
+      "id": "task-3a257af9-6050-49f4-8d64-4b120582f53b",
+      "title": "Run 🏃‍♂️",
+      "details": "10k - 1hour - zone 2",
+      "epicId": "epic-4dc39b1c-7949-43a2-8c3b-1ee071f63749",
+      "status": "Done",
+      "plannedDate": "2026-06-03",
+      "priority": "High",
+      "createdAt": "2026-06-03T03:50:45.236Z",
+      "createdBy": "divyam-gupta97",
+      "updatedAt": "2026-06-03T03:50:45.236Z",
+      "updatedBy": "divyam-gupta97",
+      "achievedAt": "2026-06-03T03:50:45.236Z",
+      "reviewedAt": null,
+      "history": [
+        {
+          "at": "2026-06-03T03:50:45.236Z",
+          "user": "divyam-gupta97",
+          "action": "Created",
+          "from": null,
+          "to": "Done"
+        }
+      ]
+    },
     {
       "id": "task-47f77f5a-c503-4b6d-a4e0-5ddbf806fa8b",
       "title": "English SAT",
