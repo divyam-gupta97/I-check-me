@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-04T09:02:17.789Z",
+  "updatedAt": "2026-06-04T09:02:56.923Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -41,6 +41,30 @@
     }
   ],
   "tasks": [
+    {
+      "id": "task-1f79a103-bf66-4fc9-8aa1-a9f3bf497eef",
+      "title": "Math IB📖",
+      "details": "progress on limits of trigonometric functions.",
+      "epicId": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
+      "status": "Planned",
+      "plannedDate": "2026-06-04",
+      "priority": "High",
+      "createdAt": "2026-06-04T09:02:56.920Z",
+      "createdBy": "divyam-gupta97",
+      "updatedAt": "2026-06-04T09:02:56.920Z",
+      "updatedBy": "divyam-gupta97",
+      "achievedAt": null,
+      "reviewedAt": null,
+      "history": [
+        {
+          "at": "2026-06-04T09:02:56.921Z",
+          "user": "divyam-gupta97",
+          "action": "Created",
+          "from": null,
+          "to": "Planned"
+        }
+      ]
+    },
     {
       "id": "task-d0718e42-6dc8-4d71-b66d-7edda8831fa5",
       "title": "5.5k indoor run",
