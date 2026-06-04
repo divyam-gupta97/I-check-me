@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-03T03:51:01.262Z",
+  "updatedAt": "2026-06-04T09:00:23.574Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -70,14 +70,14 @@
       "title": "English SAT",
       "details": "Complete all remaining Digital SAT 7 qtns",
       "epicId": "epic-bb785372-a444-428c-974c-244afebbffd4",
-      "status": "Planned",
+      "status": "Done",
       "plannedDate": "2026-06-03",
       "priority": "High",
       "createdAt": "2026-06-03T03:49:44.671Z",
       "createdBy": "divyam-gupta97",
-      "updatedAt": "2026-06-03T03:49:44.671Z",
+      "updatedAt": "2026-06-04T09:00:23.573Z",
       "updatedBy": "divyam-gupta97",
-      "achievedAt": null,
+      "achievedAt": "2026-06-04T09:00:23.574Z",
       "reviewedAt": null,
       "history": [
         {
@@ -86,6 +86,13 @@
           "action": "Created",
           "from": null,
           "to": "Planned"
+        },
+        {
+          "at": "2026-06-04T09:00:23.574Z",
+          "user": "divyam-gupta97",
+          "action": "State changed",
+          "from": "Planned",
+          "to": "Done"
         }
       ]
     },
@@ -615,6 +622,29 @@
         "reviewedTaskIds": [],
         "openTaskIds": [],
         "note": "3 achievement markers landed, with 0 planned tasks still open."
+      },
+      "2026-06-03": {
+        "id": "2026-06-03",
+        "type": "daily",
+        "title": "Daily summary: Wed, 3 Jun 2026",
+        "date": "2026-06-03",
+        "source": "auto",
+        "saved": true,
+        "createdAt": "2026-06-04T09:00:23.577Z",
+        "plannedCount": 2,
+        "achievedCount": 1,
+        "reviewedCount": 0,
+        "openCount": 0,
+        "plannedTaskIds": [
+          "task-3a257af9-6050-49f4-8d64-4b120582f53b",
+          "task-47f77f5a-c503-4b6d-a4e0-5ddbf806fa8b"
+        ],
+        "achievedTaskIds": [
+          "task-3a257af9-6050-49f4-8d64-4b120582f53b"
+        ],
+        "reviewedTaskIds": [],
+        "openTaskIds": [],
+        "note": "Everything planned for this period is now in Done or Reviewed."
       }
     },
     "weekly": {
@@ -663,6 +693,6 @@
   },
   "meta": {
     "createdAt": "2026-05-26T00:00:00.000Z",
-    "lastSummaryRunAt": "2026-06-03T03:49:44.674Z"
+    "lastSummaryRunAt": "2026-06-04T09:00:23.578Z"
   }
 }
