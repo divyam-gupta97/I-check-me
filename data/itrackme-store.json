@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-04T09:00:23.574Z",
+  "updatedAt": "2026-06-04T09:02:06.292Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -41,6 +41,30 @@
     }
   ],
   "tasks": [
+    {
+      "id": "task-d0718e42-6dc8-4d71-b66d-7edda8831fa5",
+      "title": "5.5k indoor run",
+      "details": "0-5 mins - 10kmph Z2\n5-15 mins - 12kmph Z3\n15-20 mins - 14kmph Z4\n20-30 mins - 10kmph Z2\n\n26 min relaxed 5k - Done.",
+      "epicId": "epic-4dc39b1c-7949-43a2-8c3b-1ee071f63749",
+      "status": "Done",
+      "plannedDate": "2026-06-04",
+      "priority": "High",
+      "createdAt": "2026-06-04T09:02:06.288Z",
+      "createdBy": "divyam-gupta97",
+      "updatedAt": "2026-06-04T09:02:06.288Z",
+      "updatedBy": "divyam-gupta97",
+      "achievedAt": "2026-06-04T09:02:06.288Z",
+      "reviewedAt": null,
+      "history": [
+        {
+          "at": "2026-06-04T09:02:06.288Z",
+          "user": "divyam-gupta97",
+          "action": "Created",
+          "from": null,
+          "to": "Done"
+        }
+      ]
+    },
     {
       "id": "task-3a257af9-6050-49f4-8d64-4b120582f53b",
       "title": "Run 🏃‍♂️",
