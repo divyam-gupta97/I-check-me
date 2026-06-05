@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-04T09:03:27.970Z",
+  "updatedAt": "2026-06-05T02:24:57.114Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -46,14 +46,14 @@
       "title": "Math IB📖",
       "details": "progress on limits of trigonometric functions.",
       "epicId": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
-      "status": "In Progress",
+      "status": "Done",
       "plannedDate": "2026-06-04",
       "priority": "High",
       "createdAt": "2026-06-04T09:02:56.920Z",
       "createdBy": "divyam-gupta97",
-      "updatedAt": "2026-06-04T09:03:27.970Z",
+      "updatedAt": "2026-06-05T02:24:57.113Z",
       "updatedBy": "divyam-gupta97",
-      "achievedAt": null,
+      "achievedAt": "2026-06-05T02:24:57.114Z",
       "reviewedAt": null,
       "history": [
         {
@@ -69,6 +69,13 @@
           "action": "State changed",
           "from": "Planned",
           "to": "In Progress"
+        },
+        {
+          "at": "2026-06-05T02:24:57.114Z",
+          "user": "divyam-gupta97",
+          "action": "State changed",
+          "from": "In Progress",
+          "to": "Done"
         }
       ]
     },
@@ -707,6 +714,31 @@
         "reviewedTaskIds": [],
         "openTaskIds": [],
         "note": "Everything planned for this period is now in Done or Reviewed."
+      },
+      "2026-06-04": {
+        "id": "2026-06-04",
+        "type": "daily",
+        "title": "Daily summary: Thu, 4 Jun 2026",
+        "date": "2026-06-04",
+        "source": "auto",
+        "saved": true,
+        "createdAt": "2026-06-05T02:24:57.120Z",
+        "plannedCount": 2,
+        "achievedCount": 3,
+        "reviewedCount": 0,
+        "openCount": 0,
+        "plannedTaskIds": [
+          "task-1f79a103-bf66-4fc9-8aa1-a9f3bf497eef",
+          "task-d0718e42-6dc8-4d71-b66d-7edda8831fa5"
+        ],
+        "achievedTaskIds": [
+          "task-d0718e42-6dc8-4d71-b66d-7edda8831fa5",
+          "task-47f77f5a-c503-4b6d-a4e0-5ddbf806fa8b",
+          "task-6d99b67f-efd0-4ce3-b955-ec635aa7fbfb"
+        ],
+        "reviewedTaskIds": [],
+        "openTaskIds": [],
+        "note": "Everything planned for this period is now in Done or Reviewed."
       }
     },
     "weekly": {
@@ -755,6 +787,6 @@
   },
   "meta": {
     "createdAt": "2026-05-26T00:00:00.000Z",
-    "lastSummaryRunAt": "2026-06-04T09:00:23.578Z"
+    "lastSummaryRunAt": "2026-06-05T02:24:57.121Z"
   }
 }
