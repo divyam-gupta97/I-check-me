@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-05T02:32:09.365Z",
+  "updatedAt": "2026-06-05T02:49:04.637Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -553,14 +553,14 @@
     {
       "id": "task-43d75c59-edb0-4974-82a3-f7f40e756b42",
       "title": "Explore Volunteering activities",
-      "details": "\"Youth for Sewa\" \n\nPapa sent volunteering doc. Go through.",
+      "details": "\"Youth for Sewa\" \n\nPapa sent volunteering doc. Go through.\n\ndone - registered for General Volunteering",
       "epicId": "epic-aaaf6a3f-8989-4573-a15a-973e922a4dcb",
       "status": "Planned",
       "plannedDate": "2026-06-05",
       "priority": "High",
       "createdAt": "2026-05-26T18:58:11.255Z",
       "createdBy": "divyam-gupta97",
-      "updatedAt": "2026-06-05T02:27:12.979Z",
+      "updatedAt": "2026-06-05T02:49:04.633Z",
       "updatedBy": "divyam-gupta97",
       "achievedAt": null,
       "reviewedAt": null,
@@ -581,6 +581,13 @@
         },
         {
           "at": "2026-06-05T02:27:12.979Z",
+          "user": "divyam-gupta97",
+          "action": "Edited",
+          "from": "Planned",
+          "to": "Planned"
+        },
+        {
+          "at": "2026-06-05T02:49:04.633Z",
           "user": "divyam-gupta97",
           "action": "Edited",
           "from": "Planned",
