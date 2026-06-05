@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-05T02:31:20.227Z",
+  "updatedAt": "2026-06-05T02:31:44.563Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -38,6 +38,12 @@
       "name": "OB⛰️",
       "color": "#f5f5f5",
       "createdAt": "2026-05-28T10:43:53.566Z"
+    },
+    {
+      "id": "epic-17ca02d6-c5e9-4d3e-82a8-bbd86f112065",
+      "name": "AI awareness🤖",
+      "color": "#ff725e",
+      "createdAt": "2026-06-05T02:31:44.563Z"
     }
   ],
   "tasks": [
