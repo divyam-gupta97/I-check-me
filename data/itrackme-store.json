@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-05T02:31:44.563Z",
+  "updatedAt": "2026-06-05T02:32:09.365Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -47,6 +47,30 @@
     }
   ],
   "tasks": [
+    {
+      "id": "task-a68a7676-1973-41fc-8688-371f65dab504",
+      "title": "Anthropic",
+      "details": "AI Agents course",
+      "epicId": "epic-17ca02d6-c5e9-4d3e-82a8-bbd86f112065",
+      "status": "Planned",
+      "plannedDate": "2026-06-05",
+      "priority": "Medium",
+      "createdAt": "2026-06-05T02:32:09.363Z",
+      "createdBy": "divyam-gupta97",
+      "updatedAt": "2026-06-05T02:32:09.363Z",
+      "updatedBy": "divyam-gupta97",
+      "achievedAt": null,
+      "reviewedAt": null,
+      "history": [
+        {
+          "at": "2026-06-05T02:32:09.363Z",
+          "user": "divyam-gupta97",
+          "action": "Created",
+          "from": null,
+          "to": "Planned"
+        }
+      ]
+    },
     {
       "id": "task-c252c0d0-7ddd-434d-8943-6b0cf6aeea3e",
       "title": "English SAT",
