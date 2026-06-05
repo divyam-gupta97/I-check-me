@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-05T02:25:06.370Z",
+  "updatedAt": "2026-06-05T02:26:36.950Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -41,6 +41,30 @@
     }
   ],
   "tasks": [
+    {
+      "id": "task-13fa81c2-c2f4-4f08-bc44-7a7b4ac0217b",
+      "title": "English SAT",
+      "details": "Solve 'Inference' questions",
+      "epicId": "epic-bb785372-a444-428c-974c-244afebbffd4",
+      "status": "Planned",
+      "plannedDate": "2026-06-05",
+      "priority": "High",
+      "createdAt": "2026-06-05T02:26:36.947Z",
+      "createdBy": "divyam-gupta97",
+      "updatedAt": "2026-06-05T02:26:36.947Z",
+      "updatedBy": "divyam-gupta97",
+      "achievedAt": null,
+      "reviewedAt": null,
+      "history": [
+        {
+          "at": "2026-06-05T02:26:36.948Z",
+          "user": "divyam-gupta97",
+          "action": "Created",
+          "from": null,
+          "to": "Planned"
+        }
+      ]
+    },
     {
       "id": "task-1f79a103-bf66-4fc9-8aa1-a9f3bf497eef",
       "title": "Math IB📖",
