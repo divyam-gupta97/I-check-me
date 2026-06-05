@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-05T02:27:52.859Z",
+  "updatedAt": "2026-06-05T02:30:15.055Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -41,6 +41,30 @@
     }
   ],
   "tasks": [
+    {
+      "id": "task-c252c0d0-7ddd-434d-8943-6b0cf6aeea3e",
+      "title": "English SAT",
+      "details": "Udemy English Grammar SAT course",
+      "epicId": "epic-bb785372-a444-428c-974c-244afebbffd4",
+      "status": "Planned",
+      "plannedDate": "2026-06-05",
+      "priority": "Medium",
+      "createdAt": "2026-06-05T02:30:15.048Z",
+      "createdBy": "divyam-gupta97",
+      "updatedAt": "2026-06-05T02:30:15.048Z",
+      "updatedBy": "divyam-gupta97",
+      "achievedAt": null,
+      "reviewedAt": null,
+      "history": [
+        {
+          "at": "2026-06-05T02:30:15.048Z",
+          "user": "divyam-gupta97",
+          "action": "Created",
+          "from": null,
+          "to": "Planned"
+        }
+      ]
+    },
     {
       "id": "task-5e3236ea-d3cf-4b9f-930a-efbb94ad8188",
       "title": "Math IB📖",
