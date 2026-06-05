@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-05T02:24:57.114Z",
+  "updatedAt": "2026-06-05T02:25:06.370Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -447,11 +447,11 @@
       "details": "\"Youth for Sewa\" \n\nPapa sent volunteering doc. Go through.",
       "epicId": "epic-aaaf6a3f-8989-4573-a15a-973e922a4dcb",
       "status": "Planned",
-      "plannedDate": "2026-05-27",
+      "plannedDate": "2026-06-05",
       "priority": "Medium",
       "createdAt": "2026-05-26T18:58:11.255Z",
       "createdBy": "divyam-gupta97",
-      "updatedAt": "2026-05-26T18:58:11.255Z",
+      "updatedAt": "2026-06-05T02:25:06.370Z",
       "updatedBy": "divyam-gupta97",
       "achievedAt": null,
       "reviewedAt": null,
@@ -462,6 +462,13 @@
           "action": "Created",
           "from": null,
           "to": "Planned"
+        },
+        {
+          "at": "2026-06-05T02:25:06.370Z",
+          "user": "divyam-gupta97",
+          "action": "Plan date changed",
+          "from": null,
+          "to": "2026-06-05"
         }
       ]
     },
