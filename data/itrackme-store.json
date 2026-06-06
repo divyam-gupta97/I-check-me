@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-06T09:00:14.816Z",
+  "updatedAt": "2026-06-06T10:54:48.019Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -52,14 +52,14 @@
       "title": "English SAT",
       "details": "Session 2, 3, 4 - Quizzes",
       "epicId": "epic-bb785372-a444-428c-974c-244afebbffd4",
-      "status": "Planned",
+      "status": "Done",
       "plannedDate": "2026-06-06",
       "priority": "High",
       "createdAt": "2026-06-06T09:00:14.813Z",
       "createdBy": "divyam-gupta97",
-      "updatedAt": "2026-06-06T09:00:14.813Z",
+      "updatedAt": "2026-06-06T10:54:48.019Z",
       "updatedBy": "divyam-gupta97",
-      "achievedAt": null,
+      "achievedAt": "2026-06-06T10:54:48.019Z",
       "reviewedAt": null,
       "history": [
         {
@@ -68,6 +68,13 @@
           "action": "Created",
           "from": null,
           "to": "Planned"
+        },
+        {
+          "at": "2026-06-06T10:54:48.019Z",
+          "user": "divyam-gupta97",
+          "action": "State changed",
+          "from": "Planned",
+          "to": "Done"
         }
       ]
     },
