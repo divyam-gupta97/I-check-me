@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-06T03:39:45.446Z",
+  "updatedAt": "2026-06-06T03:39:58.179Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -346,11 +346,11 @@
       "details": "Get *Full* NLM gist, solve solved sums.",
       "epicId": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
       "status": "In Progress",
-      "plannedDate": "2026-05-28",
+      "plannedDate": "",
       "priority": "High",
       "createdAt": "2026-05-27T18:56:50.519Z",
       "createdBy": "divyam-gupta97",
-      "updatedAt": "2026-06-03T03:51:01.259Z",
+      "updatedAt": "2026-06-06T03:39:58.178Z",
       "updatedBy": "divyam-gupta97",
       "achievedAt": null,
       "reviewedAt": null,
@@ -368,6 +368,13 @@
           "action": "State changed",
           "from": "Planned",
           "to": "In Progress"
+        },
+        {
+          "at": "2026-06-06T03:39:58.179Z",
+          "user": "divyam-gupta97",
+          "action": "Plan date changed",
+          "from": null,
+          "to": "Unplanned"
         }
       ]
     },
