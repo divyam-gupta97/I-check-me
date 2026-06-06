@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-05T06:18:38.121Z",
+  "updatedAt": "2026-06-06T03:39:45.446Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -52,12 +52,12 @@
       "title": "Anthropic",
       "details": "AI Agents course",
       "epicId": "epic-17ca02d6-c5e9-4d3e-82a8-bbd86f112065",
-      "status": "Planned",
+      "status": "Blocked",
       "plannedDate": "2026-06-05",
       "priority": "Medium",
       "createdAt": "2026-06-05T02:32:09.363Z",
       "createdBy": "divyam-gupta97",
-      "updatedAt": "2026-06-05T02:32:09.363Z",
+      "updatedAt": "2026-06-06T03:39:45.445Z",
       "updatedBy": "divyam-gupta97",
       "achievedAt": null,
       "reviewedAt": null,
@@ -68,6 +68,13 @@
           "action": "Created",
           "from": null,
           "to": "Planned"
+        },
+        {
+          "at": "2026-06-06T03:39:45.446Z",
+          "user": "divyam-gupta97",
+          "action": "State changed",
+          "from": "Planned",
+          "to": "Blocked"
         }
       ]
     },
@@ -883,6 +890,38 @@
         "reviewedTaskIds": [],
         "openTaskIds": [],
         "note": "Everything planned for this period is now in Done or Reviewed."
+      },
+      "2026-06-05": {
+        "id": "2026-06-05",
+        "type": "daily",
+        "title": "Daily summary: Fri, 5 Jun 2026",
+        "date": "2026-06-05",
+        "source": "auto",
+        "saved": true,
+        "createdAt": "2026-06-06T03:39:45.450Z",
+        "plannedCount": 5,
+        "achievedCount": 3,
+        "reviewedCount": 0,
+        "openCount": 3,
+        "plannedTaskIds": [
+          "task-a68a7676-1973-41fc-8688-371f65dab504",
+          "task-c252c0d0-7ddd-434d-8943-6b0cf6aeea3e",
+          "task-5e3236ea-d3cf-4b9f-930a-efbb94ad8188",
+          "task-13fa81c2-c2f4-4f08-bc44-7a7b4ac0217b",
+          "task-43d75c59-edb0-4974-82a3-f7f40e756b42"
+        ],
+        "achievedTaskIds": [
+          "task-13fa81c2-c2f4-4f08-bc44-7a7b4ac0217b",
+          "task-1f79a103-bf66-4fc9-8aa1-a9f3bf497eef",
+          "task-43d75c59-edb0-4974-82a3-f7f40e756b42"
+        ],
+        "reviewedTaskIds": [],
+        "openTaskIds": [
+          "task-a68a7676-1973-41fc-8688-371f65dab504",
+          "task-c252c0d0-7ddd-434d-8943-6b0cf6aeea3e",
+          "task-5e3236ea-d3cf-4b9f-930a-efbb94ad8188"
+        ],
+        "note": "3 achievement markers landed, with 3 planned tasks still open."
       }
     },
     "weekly": {
@@ -931,6 +970,6 @@
   },
   "meta": {
     "createdAt": "2026-05-26T00:00:00.000Z",
-    "lastSummaryRunAt": "2026-06-05T02:24:57.121Z"
+    "lastSummaryRunAt": "2026-06-06T03:39:45.451Z"
   }
 }
