@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-06T03:39:58.179Z",
+  "updatedAt": "2026-06-06T03:40:00.610Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -345,12 +345,12 @@
       "title": "Physics IB📖",
       "details": "Get *Full* NLM gist, solve solved sums.",
       "epicId": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
-      "status": "In Progress",
+      "status": "Backlog",
       "plannedDate": "",
       "priority": "High",
       "createdAt": "2026-05-27T18:56:50.519Z",
       "createdBy": "divyam-gupta97",
-      "updatedAt": "2026-06-06T03:39:58.178Z",
+      "updatedAt": "2026-06-06T03:40:00.610Z",
       "updatedBy": "divyam-gupta97",
       "achievedAt": null,
       "reviewedAt": null,
@@ -375,6 +375,13 @@
           "action": "Plan date changed",
           "from": null,
           "to": "Unplanned"
+        },
+        {
+          "at": "2026-06-06T03:40:00.610Z",
+          "user": "divyam-gupta97",
+          "action": "State changed",
+          "from": "In Progress",
+          "to": "Backlog"
         }
       ]
     },
