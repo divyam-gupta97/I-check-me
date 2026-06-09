@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-09T06:37:14.838Z",
+  "updatedAt": "2026-06-09T07:04:34.380Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -47,6 +47,30 @@
     }
   ],
   "tasks": [
+    {
+      "id": "task-350133a7-e944-4c22-a5f4-65105b33feca",
+      "title": "extra",
+      "details": "Aarohi's colouring",
+      "epicId": "epic-aaaf6a3f-8989-4573-a15a-973e922a4dcb",
+      "status": "Planned",
+      "plannedDate": "2026-06-09",
+      "priority": "Medium",
+      "createdAt": "2026-06-09T07:04:34.374Z",
+      "createdBy": "divyam-gupta97",
+      "updatedAt": "2026-06-09T07:04:34.374Z",
+      "updatedBy": "divyam-gupta97",
+      "achievedAt": null,
+      "reviewedAt": null,
+      "history": [
+        {
+          "at": "2026-06-09T07:04:34.375Z",
+          "user": "divyam-gupta97",
+          "action": "Created",
+          "from": null,
+          "to": "Planned"
+        }
+      ]
+    },
     {
       "id": "task-494e365b-c587-4e8b-91f3-49e1e954af66",
       "title": "English SAT",
