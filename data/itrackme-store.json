@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-06T10:54:48.019Z",
+  "updatedAt": "2026-06-09T06:35:14.151Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -114,12 +114,12 @@
       "title": "English SAT",
       "details": "Udemy English Grammar SAT course",
       "epicId": "epic-bb785372-a444-428c-974c-244afebbffd4",
-      "status": "Planned",
+      "status": "Blocked",
       "plannedDate": "2026-06-06",
       "priority": "Medium",
       "createdAt": "2026-06-05T02:30:15.048Z",
       "createdBy": "divyam-gupta97",
-      "updatedAt": "2026-06-06T04:25:47.628Z",
+      "updatedAt": "2026-06-09T06:35:14.151Z",
       "updatedBy": "divyam-gupta97",
       "achievedAt": null,
       "reviewedAt": null,
@@ -137,6 +137,13 @@
           "action": "Plan date changed",
           "from": null,
           "to": "2026-06-06"
+        },
+        {
+          "at": "2026-06-09T06:35:14.151Z",
+          "user": "divyam-gupta97",
+          "action": "State changed",
+          "from": "Planned",
+          "to": "Blocked"
         }
       ]
     },
@@ -995,6 +1002,31 @@
           "task-5e3236ea-d3cf-4b9f-930a-efbb94ad8188"
         ],
         "note": "3 achievement markers landed, with 3 planned tasks still open."
+      },
+      "2026-06-06": {
+        "id": "2026-06-06",
+        "type": "daily",
+        "title": "Daily summary: Sat, 6 Jun 2026",
+        "date": "2026-06-06",
+        "source": "auto",
+        "saved": true,
+        "createdAt": "2026-06-09T06:35:14.152Z",
+        "plannedCount": 2,
+        "achievedCount": 1,
+        "reviewedCount": 0,
+        "openCount": 1,
+        "plannedTaskIds": [
+          "task-3f9313ae-fac7-4978-a07c-43c545a90483",
+          "task-c252c0d0-7ddd-434d-8943-6b0cf6aeea3e"
+        ],
+        "achievedTaskIds": [
+          "task-3f9313ae-fac7-4978-a07c-43c545a90483"
+        ],
+        "reviewedTaskIds": [],
+        "openTaskIds": [
+          "task-c252c0d0-7ddd-434d-8943-6b0cf6aeea3e"
+        ],
+        "note": "1 achievement marker landed, with 1 planned task still open."
       }
     },
     "weekly": {
@@ -1038,11 +1070,56 @@
           "task-43d75c59-edb0-4974-82a3-f7f40e756b42"
         ],
         "note": "5 achievement markers landed, with 4 planned tasks still open."
+      },
+      "2026-06-01_to_2026-06-07": {
+        "id": "2026-06-01_to_2026-06-07",
+        "type": "weekly",
+        "title": "Weekly summary: 1 Jun to 7 Jun",
+        "start": "2026-06-01",
+        "end": "2026-06-07",
+        "source": "auto",
+        "saved": true,
+        "createdAt": "2026-06-09T06:35:14.153Z",
+        "plannedCount": 9,
+        "achievedCount": 12,
+        "reviewedCount": 0,
+        "openCount": 2,
+        "plannedTaskIds": [
+          "task-3f9313ae-fac7-4978-a07c-43c545a90483",
+          "task-a68a7676-1973-41fc-8688-371f65dab504",
+          "task-c252c0d0-7ddd-434d-8943-6b0cf6aeea3e",
+          "task-13fa81c2-c2f4-4f08-bc44-7a7b4ac0217b",
+          "task-1f79a103-bf66-4fc9-8aa1-a9f3bf497eef",
+          "task-d0718e42-6dc8-4d71-b66d-7edda8831fa5",
+          "task-3a257af9-6050-49f4-8d64-4b120582f53b",
+          "task-47f77f5a-c503-4b6d-a4e0-5ddbf806fa8b",
+          "task-43d75c59-edb0-4974-82a3-f7f40e756b42"
+        ],
+        "achievedTaskIds": [
+          "task-3f9313ae-fac7-4978-a07c-43c545a90483",
+          "task-13fa81c2-c2f4-4f08-bc44-7a7b4ac0217b",
+          "task-1f79a103-bf66-4fc9-8aa1-a9f3bf497eef",
+          "task-d0718e42-6dc8-4d71-b66d-7edda8831fa5",
+          "task-3a257af9-6050-49f4-8d64-4b120582f53b",
+          "task-47f77f5a-c503-4b6d-a4e0-5ddbf806fa8b",
+          "task-a0c02e26-8546-43d5-a72e-b1cd8bdaad9e",
+          "task-6d99b67f-efd0-4ce3-b955-ec635aa7fbfb",
+          "task-59bde821-576b-4ad5-bbe2-900f04b6df3f",
+          "task-27532d6f-46ed-4cd0-baaa-7ef19c31783e",
+          "task-41151fc6-aa05-4294-ac2d-8835287feb9b",
+          "task-43d75c59-edb0-4974-82a3-f7f40e756b42"
+        ],
+        "reviewedTaskIds": [],
+        "openTaskIds": [
+          "task-a68a7676-1973-41fc-8688-371f65dab504",
+          "task-c252c0d0-7ddd-434d-8943-6b0cf6aeea3e"
+        ],
+        "note": "12 achievement markers landed, with 2 planned tasks still open."
       }
     }
   },
   "meta": {
     "createdAt": "2026-05-26T00:00:00.000Z",
-    "lastSummaryRunAt": "2026-06-06T03:39:45.451Z"
+    "lastSummaryRunAt": "2026-06-09T06:35:14.153Z"
   }
 }
