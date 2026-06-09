@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-09T06:35:41.903Z",
+  "updatedAt": "2026-06-09T06:37:14.838Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -47,6 +47,30 @@
     }
   ],
   "tasks": [
+    {
+      "id": "task-494e365b-c587-4e8b-91f3-49e1e954af66",
+      "title": "English SAT",
+      "details": "Revise quiz 6 mistakes, Do quiz 8",
+      "epicId": "epic-bb785372-a444-428c-974c-244afebbffd4",
+      "status": "Planned",
+      "plannedDate": "2026-06-09",
+      "priority": "High",
+      "createdAt": "2026-06-09T06:37:14.832Z",
+      "createdBy": "divyam-gupta97",
+      "updatedAt": "2026-06-09T06:37:14.832Z",
+      "updatedBy": "divyam-gupta97",
+      "achievedAt": null,
+      "reviewedAt": null,
+      "history": [
+        {
+          "at": "2026-06-09T06:37:14.833Z",
+          "user": "divyam-gupta97",
+          "action": "Created",
+          "from": null,
+          "to": "Planned"
+        }
+      ]
+    },
     {
       "id": "task-3f9313ae-fac7-4978-a07c-43c545a90483",
       "title": "English SAT",
