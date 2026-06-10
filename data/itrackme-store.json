@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-10T06:17:52.147Z",
+  "updatedAt": "2026-06-10T06:25:52.062Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -47,6 +47,30 @@
     }
   ],
   "tasks": [
+    {
+      "id": "task-ff035fe4-59a3-4b8e-bda6-160cc375a5d7",
+      "title": "English SAT",
+      "details": "quiz 9, quiz 10",
+      "epicId": "epic-bb785372-a444-428c-974c-244afebbffd4",
+      "status": "Planned",
+      "plannedDate": "2026-06-10",
+      "priority": "High",
+      "createdAt": "2026-06-10T06:25:52.058Z",
+      "createdBy": "divyam-gupta97",
+      "updatedAt": "2026-06-10T06:25:52.058Z",
+      "updatedBy": "divyam-gupta97",
+      "achievedAt": null,
+      "reviewedAt": null,
+      "history": [
+        {
+          "at": "2026-06-10T06:25:52.059Z",
+          "user": "divyam-gupta97",
+          "action": "Created",
+          "from": null,
+          "to": "Planned"
+        }
+      ]
+    },
     {
       "id": "task-350133a7-e944-4c22-a5f4-65105b33feca",
       "title": "extra",
