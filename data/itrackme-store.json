@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-10T06:32:36.891Z",
+  "updatedAt": "2026-06-10T15:49:54.405Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -52,14 +52,14 @@
       "title": "Run 🏃‍♂️",
       "details": "10k in 50 mins.",
       "epicId": "epic-4dc39b1c-7949-43a2-8c3b-1ee071f63749",
-      "status": "Planned",
+      "status": "Done",
       "plannedDate": "2026-06-10",
       "priority": "High",
       "createdAt": "2026-06-10T06:32:36.887Z",
       "createdBy": "divyam-gupta97",
-      "updatedAt": "2026-06-10T06:32:36.887Z",
+      "updatedAt": "2026-06-10T15:49:54.405Z",
       "updatedBy": "divyam-gupta97",
-      "achievedAt": null,
+      "achievedAt": "2026-06-10T15:49:54.405Z",
       "reviewedAt": null,
       "history": [
         {
@@ -68,6 +68,13 @@
           "action": "Created",
           "from": null,
           "to": "Planned"
+        },
+        {
+          "at": "2026-06-10T15:49:54.405Z",
+          "user": "divyam-gupta97",
+          "action": "State changed",
+          "from": "Planned",
+          "to": "Done"
         }
       ]
     },
