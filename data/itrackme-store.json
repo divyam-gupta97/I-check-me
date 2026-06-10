@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-10T06:32:00.561Z",
+  "updatedAt": "2026-06-10T06:32:36.891Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -47,6 +47,30 @@
     }
   ],
   "tasks": [
+    {
+      "id": "task-d08bd730-f232-46a8-8e85-bb5aea9ea303",
+      "title": "Run 🏃‍♂️",
+      "details": "10k in 50 mins.",
+      "epicId": "epic-4dc39b1c-7949-43a2-8c3b-1ee071f63749",
+      "status": "Planned",
+      "plannedDate": "2026-06-10",
+      "priority": "High",
+      "createdAt": "2026-06-10T06:32:36.887Z",
+      "createdBy": "divyam-gupta97",
+      "updatedAt": "2026-06-10T06:32:36.887Z",
+      "updatedBy": "divyam-gupta97",
+      "achievedAt": null,
+      "reviewedAt": null,
+      "history": [
+        {
+          "at": "2026-06-10T06:32:36.888Z",
+          "user": "divyam-gupta97",
+          "action": "Created",
+          "from": null,
+          "to": "Planned"
+        }
+      ]
+    },
     {
       "id": "task-ff035fe4-59a3-4b8e-bda6-160cc375a5d7",
       "title": "English SAT",
