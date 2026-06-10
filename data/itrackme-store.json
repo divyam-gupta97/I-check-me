@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-10T06:17:48.235Z",
+  "updatedAt": "2026-06-10T06:17:52.147Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -52,14 +52,14 @@
       "title": "extra",
       "details": "Aarohi's colouring",
       "epicId": "epic-aaaf6a3f-8989-4573-a15a-973e922a4dcb",
-      "status": "Planned",
+      "status": "Done",
       "plannedDate": "2026-06-09",
       "priority": "Medium",
       "createdAt": "2026-06-09T07:04:34.374Z",
       "createdBy": "divyam-gupta97",
-      "updatedAt": "2026-06-09T07:04:34.374Z",
+      "updatedAt": "2026-06-10T06:17:52.146Z",
       "updatedBy": "divyam-gupta97",
-      "achievedAt": null,
+      "achievedAt": "2026-06-10T06:17:52.146Z",
       "reviewedAt": null,
       "history": [
         {
@@ -68,6 +68,13 @@
           "action": "Created",
           "from": null,
           "to": "Planned"
+        },
+        {
+          "at": "2026-06-10T06:17:52.146Z",
+          "user": "divyam-gupta97",
+          "action": "State changed",
+          "from": "Planned",
+          "to": "Done"
         }
       ]
     },
