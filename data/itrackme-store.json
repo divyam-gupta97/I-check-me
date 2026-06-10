@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-10T06:25:52.062Z",
+  "updatedAt": "2026-06-10T06:29:15.968Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -239,11 +239,11 @@
       "details": "complete trigo limits",
       "epicId": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
       "status": "Planned",
-      "plannedDate": "2026-06-09",
+      "plannedDate": "2026-06-10",
       "priority": "High",
       "createdAt": "2026-06-05T02:27:52.857Z",
       "createdBy": "divyam-gupta97",
-      "updatedAt": "2026-06-09T06:35:41.902Z",
+      "updatedAt": "2026-06-10T06:29:15.968Z",
       "updatedBy": "divyam-gupta97",
       "achievedAt": null,
       "reviewedAt": null,
@@ -289,6 +289,13 @@
           "action": "Plan date changed",
           "from": null,
           "to": "2026-06-09"
+        },
+        {
+          "at": "2026-06-10T06:29:15.968Z",
+          "user": "divyam-gupta97",
+          "action": "Plan date changed",
+          "from": null,
+          "to": "2026-06-10"
         }
       ]
     },
