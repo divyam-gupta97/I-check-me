@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-11T05:03:55.510Z",
+  "updatedAt": "2026-06-11T05:04:34.016Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -53,6 +53,30 @@
     }
   ],
   "tasks": [
+    {
+      "id": "task-dbf3732c-bf06-4da3-9cf5-b462201e582f",
+      "title": "Tidy Up",
+      "details": "clean up room to be in clean environment",
+      "epicId": "epic-a2ac2e14-3b64-492c-b1a3-2f8fd7889d34",
+      "status": "Planned",
+      "plannedDate": "2026-06-11",
+      "priority": "High",
+      "createdAt": "2026-06-11T05:04:34.011Z",
+      "createdBy": "divyam-gupta97",
+      "updatedAt": "2026-06-11T05:04:34.011Z",
+      "updatedBy": "divyam-gupta97",
+      "achievedAt": null,
+      "reviewedAt": null,
+      "history": [
+        {
+          "at": "2026-06-11T05:04:34.011Z",
+          "user": "divyam-gupta97",
+          "action": "Created",
+          "from": null,
+          "to": "Planned"
+        }
+      ]
+    },
     {
       "id": "task-d08bd730-f232-46a8-8e85-bb5aea9ea303",
       "title": "Run 🏃‍♂️",
