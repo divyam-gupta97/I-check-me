@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-11T07:44:28.057Z",
+  "updatedAt": "2026-06-11T11:01:26.120Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -54,6 +54,30 @@
   ],
   "tasks": [
     {
+      "id": "task-d2318d91-5f35-4444-95e1-b86ee327b9f1",
+      "title": "Run 🏃‍♂️",
+      "details": "Zone 2 indoor running",
+      "epicId": "epic-4dc39b1c-7949-43a2-8c3b-1ee071f63749",
+      "status": "Planned",
+      "plannedDate": "2026-06-11",
+      "priority": "Medium",
+      "createdAt": "2026-06-11T11:01:26.090Z",
+      "createdBy": "divyam-gupta97",
+      "updatedAt": "2026-06-11T11:01:26.090Z",
+      "updatedBy": "divyam-gupta97",
+      "achievedAt": null,
+      "reviewedAt": null,
+      "history": [
+        {
+          "at": "2026-06-11T11:01:26.096Z",
+          "user": "divyam-gupta97",
+          "action": "Created",
+          "from": null,
+          "to": "Planned"
+        }
+      ]
+    },
+    {
       "id": "task-a8d4c222-cdfe-4f6b-a5f9-846f4505d385",
       "title": "English SAT",
       "details": "1) Improve the way to solve text purpose and structure\n2) Revise all vocab",
@@ -89,14 +113,14 @@
       "title": "Tidy Up",
       "details": "clean up room to be in clean environment",
       "epicId": "epic-a2ac2e14-3b64-492c-b1a3-2f8fd7889d34",
-      "status": "Planned",
+      "status": "Done",
       "plannedDate": "2026-06-11",
       "priority": "High",
       "createdAt": "2026-06-11T05:04:34.011Z",
       "createdBy": "divyam-gupta97",
-      "updatedAt": "2026-06-11T05:04:34.011Z",
+      "updatedAt": "2026-06-11T07:44:30.413Z",
       "updatedBy": "divyam-gupta97",
-      "achievedAt": null,
+      "achievedAt": "2026-06-11T07:44:30.413Z",
       "reviewedAt": null,
       "history": [
         {
@@ -105,6 +129,13 @@
           "action": "Created",
           "from": null,
           "to": "Planned"
+        },
+        {
+          "at": "2026-06-11T07:44:30.413Z",
+          "user": "divyam-gupta97",
+          "action": "State changed",
+          "from": "Planned",
+          "to": "Done"
         }
       ]
     },
