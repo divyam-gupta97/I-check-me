@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-11T05:04:34.016Z",
+  "updatedAt": "2026-06-11T05:05:34.195Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -53,6 +53,30 @@
     }
   ],
   "tasks": [
+    {
+      "id": "task-a8d4c222-cdfe-4f6b-a5f9-846f4505d385",
+      "title": "English SAT",
+      "details": "1) Improve the way to solve text purpose and structure\n2) Revise all vocab",
+      "epicId": "epic-bb785372-a444-428c-974c-244afebbffd4",
+      "status": "Planned",
+      "plannedDate": "2026-06-11",
+      "priority": "High",
+      "createdAt": "2026-06-11T05:05:34.192Z",
+      "createdBy": "divyam-gupta97",
+      "updatedAt": "2026-06-11T05:05:34.192Z",
+      "updatedBy": "divyam-gupta97",
+      "achievedAt": null,
+      "reviewedAt": null,
+      "history": [
+        {
+          "at": "2026-06-11T05:05:34.192Z",
+          "user": "divyam-gupta97",
+          "action": "Created",
+          "from": null,
+          "to": "Planned"
+        }
+      ]
+    },
     {
       "id": "task-dbf3732c-bf06-4da3-9cf5-b462201e582f",
       "title": "Tidy Up",
