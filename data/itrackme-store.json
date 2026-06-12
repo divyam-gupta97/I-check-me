@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-12T08:32:13.282Z",
+  "updatedAt": "2026-06-12T09:33:03.849Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -53,6 +53,30 @@
     }
   ],
   "tasks": [
+    {
+      "id": "task-6f0d7106-0075-422d-826b-6bb1a9a2c76b",
+      "title": "English SAT",
+      "details": "do quiz 11, add 3 more vocab words",
+      "epicId": "epic-bb785372-a444-428c-974c-244afebbffd4",
+      "status": "Planned",
+      "plannedDate": "2026-06-12",
+      "priority": "High",
+      "createdAt": "2026-06-12T09:33:03.841Z",
+      "createdBy": "divyam-gupta97",
+      "updatedAt": "2026-06-12T09:33:03.841Z",
+      "updatedBy": "divyam-gupta97",
+      "achievedAt": null,
+      "reviewedAt": null,
+      "history": [
+        {
+          "at": "2026-06-12T09:33:03.842Z",
+          "user": "divyam-gupta97",
+          "action": "Created",
+          "from": null,
+          "to": "Planned"
+        }
+      ]
+    },
     {
       "id": "task-4ec95050-3236-4d0a-8bd8-55f287ad5440",
       "title": "swim 🏊",
