@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-12T08:31:58.181Z",
+  "updatedAt": "2026-06-12T08:32:13.282Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -81,30 +81,6 @@
           "action": "State changed",
           "from": "Planned",
           "to": "Done"
-        }
-      ]
-    },
-    {
-      "id": "task-d2318d91-5f35-4444-95e1-b86ee327b9f1",
-      "title": "Run 🏃‍♂️",
-      "details": "Zone 2 indoor running",
-      "epicId": "epic-4dc39b1c-7949-43a2-8c3b-1ee071f63749",
-      "status": "Planned",
-      "plannedDate": "2026-06-11",
-      "priority": "Medium",
-      "createdAt": "2026-06-11T11:01:26.090Z",
-      "createdBy": "divyam-gupta97",
-      "updatedAt": "2026-06-11T11:01:26.090Z",
-      "updatedBy": "divyam-gupta97",
-      "achievedAt": null,
-      "reviewedAt": null,
-      "history": [
-        {
-          "at": "2026-06-11T11:01:26.096Z",
-          "user": "divyam-gupta97",
-          "action": "Created",
-          "from": null,
-          "to": "Planned"
         }
       ]
     },
