@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-11T11:01:53.468Z",
+  "updatedAt": "2026-06-12T08:31:58.181Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -58,14 +58,14 @@
       "title": "swim 🏊",
       "details": "swimming class",
       "epicId": "epic-4dc39b1c-7949-43a2-8c3b-1ee071f63749",
-      "status": "Planned",
+      "status": "Done",
       "plannedDate": "2026-06-11",
       "priority": "High",
       "createdAt": "2026-06-11T11:01:53.463Z",
       "createdBy": "divyam-gupta97",
-      "updatedAt": "2026-06-11T11:01:53.463Z",
+      "updatedAt": "2026-06-12T08:31:58.181Z",
       "updatedBy": "divyam-gupta97",
-      "achievedAt": null,
+      "achievedAt": "2026-06-12T08:31:58.181Z",
       "reviewedAt": null,
       "history": [
         {
@@ -74,6 +74,13 @@
           "action": "Created",
           "from": null,
           "to": "Planned"
+        },
+        {
+          "at": "2026-06-12T08:31:58.181Z",
+          "user": "divyam-gupta97",
+          "action": "State changed",
+          "from": "Planned",
+          "to": "Done"
         }
       ]
     },
@@ -1348,6 +1355,35 @@
           "task-5e3236ea-d3cf-4b9f-930a-efbb94ad8188"
         ],
         "note": "3 achievement markers landed, with 1 planned task still open."
+      },
+      "2026-06-11": {
+        "id": "2026-06-11",
+        "type": "daily",
+        "title": "Daily summary: Thu, 11 Jun 2026",
+        "date": "2026-06-11",
+        "source": "auto",
+        "saved": true,
+        "createdAt": "2026-06-12T08:31:58.187Z",
+        "plannedCount": 4,
+        "achievedCount": 3,
+        "reviewedCount": 0,
+        "openCount": 1,
+        "plannedTaskIds": [
+          "task-4ec95050-3236-4d0a-8bd8-55f287ad5440",
+          "task-d2318d91-5f35-4444-95e1-b86ee327b9f1",
+          "task-a8d4c222-cdfe-4f6b-a5f9-846f4505d385",
+          "task-dbf3732c-bf06-4da3-9cf5-b462201e582f"
+        ],
+        "achievedTaskIds": [
+          "task-a8d4c222-cdfe-4f6b-a5f9-846f4505d385",
+          "task-dbf3732c-bf06-4da3-9cf5-b462201e582f",
+          "task-ff035fe4-59a3-4b8e-bda6-160cc375a5d7"
+        ],
+        "reviewedTaskIds": [],
+        "openTaskIds": [
+          "task-d2318d91-5f35-4444-95e1-b86ee327b9f1"
+        ],
+        "note": "3 achievement markers landed, with 1 planned task still open."
       }
     },
     "weekly": {
@@ -1441,6 +1477,6 @@
   },
   "meta": {
     "createdAt": "2026-05-26T00:00:00.000Z",
-    "lastSummaryRunAt": "2026-06-11T05:03:30.536Z"
+    "lastSummaryRunAt": "2026-06-12T08:31:58.187Z"
   }
 }
