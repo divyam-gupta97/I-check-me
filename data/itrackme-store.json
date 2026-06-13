@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-12T09:33:03.849Z",
+  "updatedAt": "2026-06-13T06:08:00.324Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -406,14 +406,14 @@
       "title": "Math IB📖",
       "details": "complete trigo limits",
       "epicId": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
-      "status": "Planned",
+      "status": "Done",
       "plannedDate": "2026-06-10",
       "priority": "High",
       "createdAt": "2026-06-05T02:27:52.857Z",
       "createdBy": "divyam-gupta97",
-      "updatedAt": "2026-06-10T06:29:15.968Z",
+      "updatedAt": "2026-06-13T06:08:00.324Z",
       "updatedBy": "divyam-gupta97",
-      "achievedAt": null,
+      "achievedAt": "2026-06-13T06:08:00.324Z",
       "reviewedAt": null,
       "history": [
         {
@@ -464,6 +464,13 @@
           "action": "Plan date changed",
           "from": null,
           "to": "2026-06-10"
+        },
+        {
+          "at": "2026-06-13T06:08:00.324Z",
+          "user": "divyam-gupta97",
+          "action": "State changed",
+          "from": "Planned",
+          "to": "Done"
         }
       ]
     },
@@ -1384,6 +1391,30 @@
           "task-d2318d91-5f35-4444-95e1-b86ee327b9f1"
         ],
         "note": "3 achievement markers landed, with 1 planned task still open."
+      },
+      "2026-06-12": {
+        "id": "2026-06-12",
+        "type": "daily",
+        "title": "Daily summary: Fri, 12 Jun 2026",
+        "date": "2026-06-12",
+        "source": "auto",
+        "saved": true,
+        "createdAt": "2026-06-13T06:08:00.331Z",
+        "plannedCount": 1,
+        "achievedCount": 1,
+        "reviewedCount": 0,
+        "openCount": 1,
+        "plannedTaskIds": [
+          "task-6f0d7106-0075-422d-826b-6bb1a9a2c76b"
+        ],
+        "achievedTaskIds": [
+          "task-4ec95050-3236-4d0a-8bd8-55f287ad5440"
+        ],
+        "reviewedTaskIds": [],
+        "openTaskIds": [
+          "task-6f0d7106-0075-422d-826b-6bb1a9a2c76b"
+        ],
+        "note": "1 achievement marker landed, with 1 planned task still open."
       }
     },
     "weekly": {
@@ -1477,6 +1508,6 @@
   },
   "meta": {
     "createdAt": "2026-05-26T00:00:00.000Z",
-    "lastSummaryRunAt": "2026-06-12T08:31:58.187Z"
+    "lastSummaryRunAt": "2026-06-13T06:08:00.331Z"
   }
 }
