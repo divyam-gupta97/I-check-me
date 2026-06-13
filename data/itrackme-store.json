@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-13T06:08:00.324Z",
+  "updatedAt": "2026-06-13T06:10:30.957Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -58,14 +58,14 @@
       "title": "English SAT",
       "details": "do quiz 11, add 3 more vocab words",
       "epicId": "epic-bb785372-a444-428c-974c-244afebbffd4",
-      "status": "Planned",
+      "status": "Done",
       "plannedDate": "2026-06-12",
       "priority": "High",
       "createdAt": "2026-06-12T09:33:03.841Z",
       "createdBy": "divyam-gupta97",
-      "updatedAt": "2026-06-12T09:33:03.841Z",
+      "updatedAt": "2026-06-13T06:10:30.957Z",
       "updatedBy": "divyam-gupta97",
-      "achievedAt": null,
+      "achievedAt": "2026-06-13T06:10:30.957Z",
       "reviewedAt": null,
       "history": [
         {
@@ -74,6 +74,13 @@
           "action": "Created",
           "from": null,
           "to": "Planned"
+        },
+        {
+          "at": "2026-06-13T06:10:30.957Z",
+          "user": "divyam-gupta97",
+          "action": "State changed",
+          "from": "Planned",
+          "to": "Done"
         }
       ]
     },
