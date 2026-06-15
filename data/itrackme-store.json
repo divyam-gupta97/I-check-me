@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-15T07:56:18.453Z",
+  "updatedAt": "2026-06-15T07:57:20.918Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -53,6 +53,30 @@
     }
   ],
   "tasks": [
+    {
+      "id": "task-3cfe6cdd-3a06-4df1-ad23-b26e63300331",
+      "title": "English SAT",
+      "details": "Do cross text connections sums from papa's laptop",
+      "epicId": "epic-bb785372-a444-428c-974c-244afebbffd4",
+      "status": "Planned",
+      "plannedDate": "2026-06-15",
+      "priority": "High",
+      "createdAt": "2026-06-15T07:57:20.915Z",
+      "createdBy": "divyam-gupta97",
+      "updatedAt": "2026-06-15T07:57:20.915Z",
+      "updatedBy": "divyam-gupta97",
+      "achievedAt": null,
+      "reviewedAt": null,
+      "history": [
+        {
+          "at": "2026-06-15T07:57:20.915Z",
+          "user": "divyam-gupta97",
+          "action": "Created",
+          "from": null,
+          "to": "Planned"
+        }
+      ]
+    },
     {
       "id": "task-511b7aa5-d3d3-4dc7-942f-7b9d5ae969d6",
       "title": "Explore Volunteering activities",
