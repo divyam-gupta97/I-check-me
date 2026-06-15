@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-15T07:58:37.742Z",
+  "updatedAt": "2026-06-15T07:59:07.469Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -464,14 +464,14 @@
       "title": "English SAT",
       "details": "Udemy English Grammar SAT course",
       "epicId": "epic-bb785372-a444-428c-974c-244afebbffd4",
-      "status": "In Progress",
+      "status": "Done",
       "plannedDate": "2026-06-06",
       "priority": "Medium",
       "createdAt": "2026-06-05T02:30:15.048Z",
       "createdBy": "divyam-gupta97",
-      "updatedAt": "2026-06-10T06:32:00.560Z",
+      "updatedAt": "2026-06-15T07:59:07.469Z",
       "updatedBy": "divyam-gupta97",
-      "achievedAt": null,
+      "achievedAt": "2026-06-15T07:59:07.469Z",
       "reviewedAt": null,
       "history": [
         {
@@ -501,6 +501,13 @@
           "action": "State changed",
           "from": "Blocked",
           "to": "In Progress"
+        },
+        {
+          "at": "2026-06-15T07:59:07.469Z",
+          "user": "divyam-gupta97",
+          "action": "State changed",
+          "from": "In Progress",
+          "to": "Done"
         }
       ]
     },
