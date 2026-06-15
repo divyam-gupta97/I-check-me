@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-15T07:55:52.271Z",
+  "updatedAt": "2026-06-15T07:56:18.453Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -53,6 +53,30 @@
     }
   ],
   "tasks": [
+    {
+      "id": "task-511b7aa5-d3d3-4dc7-942f-7b9d5ae969d6",
+      "title": "Explore Volunteering activities",
+      "details": "Reply to YFS mail",
+      "epicId": "epic-aaaf6a3f-8989-4573-a15a-973e922a4dcb",
+      "status": "Planned",
+      "plannedDate": "2026-06-15",
+      "priority": "Medium",
+      "createdAt": "2026-06-15T07:56:18.450Z",
+      "createdBy": "divyam-gupta97",
+      "updatedAt": "2026-06-15T07:56:18.450Z",
+      "updatedBy": "divyam-gupta97",
+      "achievedAt": null,
+      "reviewedAt": null,
+      "history": [
+        {
+          "at": "2026-06-15T07:56:18.450Z",
+          "user": "divyam-gupta97",
+          "action": "Created",
+          "from": null,
+          "to": "Planned"
+        }
+      ]
+    },
     {
       "id": "task-b8153436-e4b6-4aa1-964f-f63757a1f7c5",
       "title": "Math IB📖",
