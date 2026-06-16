@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-16T05:16:33.866Z",
+  "updatedAt": "2026-06-16T05:17:40.912Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -53,6 +53,30 @@
     }
   ],
   "tasks": [
+    {
+      "id": "task-2683acd6-b65c-4361-9dc4-8473f3983adf",
+      "title": "swim🏊",
+      "details": "class 6-7",
+      "epicId": "epic-4dc39b1c-7949-43a2-8c3b-1ee071f63749",
+      "status": "Planned",
+      "plannedDate": "2026-06-16",
+      "priority": "Medium",
+      "createdAt": "2026-06-16T05:17:40.907Z",
+      "createdBy": "divyam-gupta97",
+      "updatedAt": "2026-06-16T05:17:40.907Z",
+      "updatedBy": "divyam-gupta97",
+      "achievedAt": null,
+      "reviewedAt": null,
+      "history": [
+        {
+          "at": "2026-06-16T05:17:40.908Z",
+          "user": "divyam-gupta97",
+          "action": "Created",
+          "from": null,
+          "to": "Planned"
+        }
+      ]
+    },
     {
       "id": "task-40e85172-5879-4d02-ab0d-84a1a4ef8efa",
       "title": "Math IB📖",
