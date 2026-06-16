@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-16T04:55:57.377Z",
+  "updatedAt": "2026-06-16T04:56:02.847Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -121,11 +121,11 @@
       "details": "Reply to YFS mail",
       "epicId": "epic-aaaf6a3f-8989-4573-a15a-973e922a4dcb",
       "status": "Planned",
-      "plannedDate": "2026-06-15",
+      "plannedDate": "2026-06-16",
       "priority": "Medium",
       "createdAt": "2026-06-15T07:56:18.450Z",
       "createdBy": "divyam-gupta97",
-      "updatedAt": "2026-06-15T07:56:18.450Z",
+      "updatedAt": "2026-06-16T04:56:02.847Z",
       "updatedBy": "divyam-gupta97",
       "achievedAt": null,
       "reviewedAt": null,
@@ -136,6 +136,13 @@
           "action": "Created",
           "from": null,
           "to": "Planned"
+        },
+        {
+          "at": "2026-06-16T04:56:02.847Z",
+          "user": "divyam-gupta97",
+          "action": "Plan date changed",
+          "from": null,
+          "to": "2026-06-16"
         }
       ]
     },
