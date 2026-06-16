@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-15T07:59:07.469Z",
+  "updatedAt": "2026-06-16T04:55:46.913Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -58,14 +58,14 @@
       "title": "Run 🏃‍♂️",
       "details": "Make prep plan for Mysore HM, register",
       "epicId": "epic-4dc39b1c-7949-43a2-8c3b-1ee071f63749",
-      "status": "Planned",
+      "status": "Done",
       "plannedDate": "2026-06-15",
       "priority": "Medium",
       "createdAt": "2026-06-15T07:58:37.736Z",
       "createdBy": "divyam-gupta97",
-      "updatedAt": "2026-06-15T07:58:37.736Z",
+      "updatedAt": "2026-06-16T04:55:46.911Z",
       "updatedBy": "divyam-gupta97",
-      "achievedAt": null,
+      "achievedAt": "2026-06-16T04:55:46.911Z",
       "reviewedAt": null,
       "history": [
         {
@@ -74,6 +74,13 @@
           "action": "Created",
           "from": null,
           "to": "Planned"
+        },
+        {
+          "at": "2026-06-16T04:55:46.912Z",
+          "user": "divyam-gupta97",
+          "action": "State changed",
+          "from": "Planned",
+          "to": "Done"
         }
       ]
     },
@@ -1546,6 +1553,35 @@
         "reviewedTaskIds": [],
         "openTaskIds": [],
         "note": "2 achievement markers landed, with 0 planned tasks still open."
+      },
+      "2026-06-15": {
+        "id": "2026-06-15",
+        "type": "daily",
+        "title": "Daily summary: Mon, 15 Jun 2026",
+        "date": "2026-06-15",
+        "source": "auto",
+        "saved": true,
+        "createdAt": "2026-06-16T04:55:46.927Z",
+        "plannedCount": 4,
+        "achievedCount": 1,
+        "reviewedCount": 0,
+        "openCount": 3,
+        "plannedTaskIds": [
+          "task-153d9892-a118-4c72-a15e-17743f8f16fb",
+          "task-3cfe6cdd-3a06-4df1-ad23-b26e63300331",
+          "task-511b7aa5-d3d3-4dc7-942f-7b9d5ae969d6",
+          "task-b8153436-e4b6-4aa1-964f-f63757a1f7c5"
+        ],
+        "achievedTaskIds": [
+          "task-c252c0d0-7ddd-434d-8943-6b0cf6aeea3e"
+        ],
+        "reviewedTaskIds": [],
+        "openTaskIds": [
+          "task-3cfe6cdd-3a06-4df1-ad23-b26e63300331",
+          "task-511b7aa5-d3d3-4dc7-942f-7b9d5ae969d6",
+          "task-b8153436-e4b6-4aa1-964f-f63757a1f7c5"
+        ],
+        "note": "1 achievement marker landed, with 3 planned tasks still open."
       }
     },
     "weekly": {
@@ -1678,6 +1714,6 @@
   },
   "meta": {
     "createdAt": "2026-05-26T00:00:00.000Z",
-    "lastSummaryRunAt": "2026-06-15T07:55:52.272Z"
+    "lastSummaryRunAt": "2026-06-16T04:55:46.930Z"
   }
 }
