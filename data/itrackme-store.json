@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-17T07:42:52.358Z",
+  "updatedAt": "2026-06-17T07:45:29.081Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -89,14 +89,14 @@
       "title": "Math IB📖",
       "details": "Progress on DIFFERENTIATION",
       "epicId": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
-      "status": "Planned",
+      "status": "Done",
       "plannedDate": "2026-06-16",
       "priority": "High",
       "createdAt": "2026-06-16T05:16:33.859Z",
       "createdBy": "divyam-gupta97",
-      "updatedAt": "2026-06-16T05:16:33.859Z",
+      "updatedAt": "2026-06-17T07:45:29.080Z",
       "updatedBy": "divyam-gupta97",
-      "achievedAt": null,
+      "achievedAt": "2026-06-17T07:45:29.081Z",
       "reviewedAt": null,
       "history": [
         {
@@ -105,6 +105,13 @@
           "action": "Created",
           "from": null,
           "to": "Planned"
+        },
+        {
+          "at": "2026-06-17T07:45:29.081Z",
+          "user": "divyam-gupta97",
+          "action": "State changed",
+          "from": "Planned",
+          "to": "Done"
         }
       ]
     },
