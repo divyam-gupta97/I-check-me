@@ -1,7 +1,7 @@
 {
   "version": 1,
   "app": "ITrackMe",
-  "updatedAt": "2026-06-20T13:38:02.778Z",
+  "updatedAt": "2026-06-20T13:38:10.915Z",
   "epics": [
     {
       "id": "epic-532e2c0b-d90d-407c-9515-4efedaff03bb",
@@ -143,37 +143,6 @@
           "action": "State changed",
           "from": "Planned",
           "to": "Done"
-        }
-      ]
-    },
-    {
-      "id": "task-3cfe6cdd-3a06-4df1-ad23-b26e63300331",
-      "title": "English SAT",
-      "details": "Do cross text connections sums from papa's laptop",
-      "epicId": "epic-bb785372-a444-428c-974c-244afebbffd4",
-      "status": "Planned",
-      "plannedDate": "2026-06-16",
-      "priority": "High",
-      "createdAt": "2026-06-15T07:57:20.915Z",
-      "createdBy": "divyam-gupta97",
-      "updatedAt": "2026-06-16T04:55:57.377Z",
-      "updatedBy": "divyam-gupta97",
-      "achievedAt": null,
-      "reviewedAt": null,
-      "history": [
-        {
-          "at": "2026-06-15T07:57:20.915Z",
-          "user": "divyam-gupta97",
-          "action": "Created",
-          "from": null,
-          "to": "Planned"
-        },
-        {
-          "at": "2026-06-16T04:55:57.377Z",
-          "user": "divyam-gupta97",
-          "action": "Plan date changed",
-          "from": null,
-          "to": "2026-06-16"
         }
       ]
     },
